@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31fe3429-b86e-4293-9086-a3a2262c0e08" name="Changes" comment="add solutions">
-      <change afterPath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/Fundamentals - Exams Preparation/05. Programming Fundamentals Mid Exam/01. Bonus Scoring System" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/Fundamentals - Exams Preparation/05. Programming Fundamentals Mid Exam/02. MuOnline" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/Fundamentals - Exams Preparation/05. Programming Fundamentals Mid Exam/03. Inventory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/ 01. Programming Fundamentals Mid Exam Retake/01. Computer Store" beforeDir="false" afterPath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/Fundamentals - Exams Preparation/ 01. Programming Fundamentals Mid Exam Retake/01. Computer Store" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/ 01. Programming Fundamentals Mid Exam Retake/02. The Lift" beforeDir="false" afterPath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/Fundamentals - Exams Preparation/ 01. Programming Fundamentals Mid Exam Retake/02. The Lift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/ 01. Programming Fundamentals Mid Exam Retake/03. Memory Game" beforeDir="false" afterPath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/Fundamentals - Exams Preparation/ 01. Programming Fundamentals Mid Exam Retake/03. Memory Game" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/02. Programming Fundamentals Mid Exam/01. SoftUni Reception" beforeDir="false" afterPath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/Fundamentals - Exams Preparation/02. Programming Fundamentals Mid Exam/01. SoftUni Reception" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/02. Programming Fundamentals Mid Exam/02. Array Modifier" beforeDir="false" afterPath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/Fundamentals - Exams Preparation/02. Programming Fundamentals Mid Exam/02. Array Modifier" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/02. Programming Fundamentals Mid Exam/03. Numbers" beforeDir="false" afterPath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/Fundamentals - Exams Preparation/02. Programming Fundamentals Mid Exam/03. Numbers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/03. Programming Fundamentals Mid Exam Retake/01. Counter-Strike" beforeDir="false" afterPath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/Fundamentals - Exams Preparation/03. Programming Fundamentals Mid Exam Retake/01. Counter-Strike" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/03. Programming Fundamentals Mid Exam Retake/02. Shoot for the Win" beforeDir="false" afterPath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/Fundamentals - Exams Preparation/03. Programming Fundamentals Mid Exam Retake/02. Shoot for the Win" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/03. Programming Fundamentals Mid Exam Retake/03. Moving Target" beforeDir="false" afterPath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/Fundamentals - Exams Preparation/03. Programming Fundamentals Mid Exam Retake/03. Moving Target" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/04. Programming Fundamentals Mid Exam/01. Guinea Pig" beforeDir="false" afterPath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/Fundamentals - Exams Preparation/04. Programming Fundamentals Mid Exam/01. Guinea Pig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/04. Programming Fundamentals Mid Exam/02. Shopping List" beforeDir="false" afterPath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/Fundamentals - Exams Preparation/04. Programming Fundamentals Mid Exam/02. Shopping List" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/04. Programming Fundamentals Mid Exam/03. Heart Delivery" beforeDir="false" afterPath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/Fundamentals - Exams Preparation/04. Programming Fundamentals Mid Exam/03. Heart Delivery" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Programming Fundamentals with Java - September 2023/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="31fe3429-b86e-4293-9086-a3a2262c0e08" name="Changes" comment="add solutions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +27,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gamer\Documents\GitHub\Softrware-University\Programming Fundamentals with Java - September 2023\Fundamentals - Exams Preparation" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -117,7 +105,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697824477841</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add solutions">
+      <option name="closed" value="true" />
+      <created>1697824973030</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697824973030</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add solutions">
+      <option name="closed" value="true" />
+      <created>1697825125838</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697825125838</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
