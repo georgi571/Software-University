@@ -1,8 +1,8 @@
-package ProgrammingBasicsOnlineExam9And10March2019;
+package _1ProgrammingBasicsWithJavaMay2023._7PBExamsPreparation._1ProgrammingBasicsOnlineExam9And10March2019;
 
 import java.util.Scanner;
 
-public class TennisEquipment {
+public class _01TennisEquipment {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double priceOfTennisRacket = Double.parseDouble(scanner.nextLine());

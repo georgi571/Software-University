@@ -1,8 +1,8 @@
-package ProgrammingBasicsOnlineExam9And10March2019;
+package _1ProgrammingBasicsWithJavaMay2023._7PBExamsPreparation._1ProgrammingBasicsOnlineExam9And10March2019;
 
 import java.util.Scanner;
 
-public class BasketballEquipment {
+public class _01BasketballEquipment {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int yearTax = Integer.parseInt(scanner.nextLine());
