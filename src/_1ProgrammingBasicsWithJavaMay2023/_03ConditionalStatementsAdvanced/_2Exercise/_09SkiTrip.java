@@ -1,8 +1,8 @@
-package ConditionalStatementsAdvancedExercise;
+package _1ProgrammingBasicsWithJavaMay2023._03ConditionalStatementsAdvanced._2Exercise;
 
 import java.util.Scanner;
 
-public class SkiTrip {
+public class _09SkiTrip {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int days = Integer.parseInt(scanner.nextLine());

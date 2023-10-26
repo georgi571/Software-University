@@ -1,8 +1,8 @@
-package ConditionalStatementsAdvancedExercise;
+package _1ProgrammingBasicsWithJavaMay2023._03ConditionalStatementsAdvanced._2Exercise;
 
 import java.util.Scanner;
 
-public class SummerOutfit {
+public class _02SummerOutfit {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int degrees = Integer.parseInt(scanner.nextLine());

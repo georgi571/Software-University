@@ -1,8 +1,8 @@
-package ConditionalStatementsAdvancedLab;
+package _1ProgrammingBasicsWithJavaMay2023._03ConditionalStatementsAdvanced._1Lab;
 
 import java.util.Scanner;
 
-public class TradeCommissions {
+public class _12TradeCommissions {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String town = scanner.nextLine();

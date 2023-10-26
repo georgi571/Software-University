@@ -1,10 +1,8 @@
-package ConditionalStatementsAdvancedLab;
-
-import com.sun.jdi.ModuleReference;
+package _1ProgrammingBasicsWithJavaMay2023._03ConditionalStatementsAdvanced._1Lab;
 
 import java.util.Scanner;
 
-public class PersonalTitles {
+public class _04PersonalTitles {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double age = Double.parseDouble(scanner.nextLine());

@@ -1,8 +1,8 @@
-package ConditionalStatementsAdvancedLab;
+package _1ProgrammingBasicsWithJavaMay2023._03ConditionalStatementsAdvanced._1Lab;
 
 import java.util.Scanner;
 
-public class FruitShop {
+public class _11FruitShop {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String fruit = scanner.nextLine();

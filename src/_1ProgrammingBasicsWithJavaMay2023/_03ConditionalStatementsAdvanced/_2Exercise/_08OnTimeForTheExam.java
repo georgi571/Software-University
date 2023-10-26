@@ -1,8 +1,8 @@
-package ConditionalStatementsAdvancedExercise;
+package _1ProgrammingBasicsWithJavaMay2023._03ConditionalStatementsAdvanced._2Exercise;
 
 import java.util.Scanner;
 
-public class OnTimeForTheExam {
+public class _08OnTimeForTheExam {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int hoursOfExam = Integer.parseInt(scanner.nextLine());
