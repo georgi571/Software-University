@@ -1,4 +1,4 @@
-package _1ProgrammingBasicsWithJavaMay2023._03ConditionalStatementsAdvanced._1Lab;
+package _1ProgrammingBasicsWithJavaMay2023._3ConditionalStatementsAdvanced._1Lab;
 
 import java.util.Scanner;
 
