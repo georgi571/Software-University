@@ -1,4 +1,4 @@
-package Lection2;
+package _1ProgrammingBasicsWithJavaMay2023._1FirstStepsInCoding._2Exercise;
 
 import java.util.Scanner;
 

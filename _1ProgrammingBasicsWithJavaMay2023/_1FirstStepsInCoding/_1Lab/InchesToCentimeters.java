@@ -1,3 +1,5 @@
+package _1ProgrammingBasicsWithJavaMay2023._1FirstStepsInCoding._1Lab;
+
 import java.util.Scanner;
 
 public class InchesToCentimeters {

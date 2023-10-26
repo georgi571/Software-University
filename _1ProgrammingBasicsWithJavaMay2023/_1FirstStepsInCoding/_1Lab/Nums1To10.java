@@ -1,3 +1,5 @@
+package _1ProgrammingBasicsWithJavaMay2023._1FirstStepsInCoding._1Lab;
+
 public class Nums1To10 {
     public static void main(String[] args) {
         System.out.println(1);
