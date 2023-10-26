@@ -1,8 +1,8 @@
-package WhileLoopExercise;
+package _1ProgrammingBasicsWithJavaMay2023._5WhileLoop._2Exercise;
 
 import java.util.Scanner;
 
-public class OldBooks {
+public class _01OldBooks {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String nameOfFavoriteBook = scanner.nextLine();

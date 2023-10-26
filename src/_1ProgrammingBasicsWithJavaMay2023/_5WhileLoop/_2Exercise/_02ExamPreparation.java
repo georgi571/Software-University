@@ -1,8 +1,8 @@
-package WhileLoopExercise;
+package _1ProgrammingBasicsWithJavaMay2023._5WhileLoop._2Exercise;
 
 import java.util.Scanner;
 
-public class ExamPreparation {
+public class _02ExamPreparation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int numberOfBadGrades = Integer.parseInt(scanner.nextLine());

@@ -1,8 +1,8 @@
-package WhileLoopLab;
+package _1ProgrammingBasicsWithJavaMay2023._5WhileLoop._1Lab;
 
 import java.util.Scanner;
 
-public class Password {
+public class _02Password {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String username = scanner.nextLine();

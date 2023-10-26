@@ -1,8 +1,8 @@
-package WhileLoopLab;
+package _1ProgrammingBasicsWithJavaMay2023._5WhileLoop._1Lab;
 
 import java.util.Scanner;
 
-public class MaxNumber {
+public class _06MaxNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();

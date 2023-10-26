@@ -1,8 +1,8 @@
-package WhileLoopExercise;
+package _1ProgrammingBasicsWithJavaMay2023._5WhileLoop._2Exercise;
 
 import java.util.Scanner;
 
-public class Cake {
+public class _06Cake {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int width = Integer.parseInt(scanner.nextLine());

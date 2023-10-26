@@ -1,8 +1,8 @@
-package WhileLoopLab;
+package _1ProgrammingBasicsWithJavaMay2023._5WhileLoop._1Lab;
 
 import java.util.Scanner;
 
-public class Graduation {
+public class _08Graduation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
