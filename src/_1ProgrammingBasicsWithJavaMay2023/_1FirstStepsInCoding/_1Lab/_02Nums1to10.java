@@ -1,4 +1,4 @@
-package _1ProgrammingBasicsWithJavaMay2023._1Lab;
+package _1ProgrammingBasicsWithJavaMay2023._1FirstStepsInCoding._1Lab;
 
 public class _02Nums1to10 {
     public static void main(String[] args) {
