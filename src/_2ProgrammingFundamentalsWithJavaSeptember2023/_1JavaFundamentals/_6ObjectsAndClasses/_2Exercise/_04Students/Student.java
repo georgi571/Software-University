@@ -9,13 +9,13 @@ public class Student {
         this.lastName = lastName;
         this.grade = grade;
     }
-    public String getFirstName(){
+    public String getFirstName() {
         return firstName;
     }
     public String getLastName() {
         return lastName;
     }
-    public double getGrade(){
+    public double getGrade() {
         return grade;
     }
 }
