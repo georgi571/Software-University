@@ -1,9 +1,9 @@
-package _2ProgrammingFundamentalsWithJavaSeptember2023._1JavaFundamentals._6ObjectsAndClasses._1Lab;
+package _2ProgrammingFundamentalsWithJavaSeptember2023._1JavaFundamentals._6ObjectsAndClasses._1Lab._01RandomizeWords;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class _01RandomizeWords {
+public class RandomizeWords {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List<String> inputWords = Arrays.stream(scanner.nextLine()

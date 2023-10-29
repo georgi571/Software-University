@@ -1,9 +1,9 @@
-package _2ProgrammingFundamentalsWithJavaSeptember2023._1JavaFundamentals._6ObjectsAndClasses._1Lab;
+package _2ProgrammingFundamentalsWithJavaSeptember2023._1JavaFundamentals._6ObjectsAndClasses._1Lab._03BigFactorial;
 
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class _03BigFactorial {
+public class BigFactorial {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = Integer.parseInt(scanner.nextLine());
