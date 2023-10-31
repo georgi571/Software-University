@@ -1,4 +1,4 @@
-package _2ProgrammingFundamentalsWithJavaSeptember2023._1JavaFundamentals._07AssociativeArrays;
+package _2ProgrammingFundamentalsWithJavaSeptember2023._1JavaFundamentals._07AssociativeArrays._1Lab;
 
 import java.text.DecimalFormat;
 import java.util.Arrays;
