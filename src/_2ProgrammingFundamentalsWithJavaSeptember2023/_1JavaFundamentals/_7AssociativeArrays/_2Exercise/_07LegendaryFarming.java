@@ -1,4 +1,4 @@
-package _2ProgrammingFundamentalsWithJavaSeptember2023._1JavaFundamentals._07AssociativeArrays._2Exercise;
+package _2ProgrammingFundamentalsWithJavaSeptember2023._1JavaFundamentals._7AssociativeArrays._2Exercise;
 
 import java.util.*;
 import java.util.stream.Collectors;

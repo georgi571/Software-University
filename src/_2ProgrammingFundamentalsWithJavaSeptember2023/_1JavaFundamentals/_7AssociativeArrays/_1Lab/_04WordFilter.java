@@ -1,4 +1,4 @@
-package _2ProgrammingFundamentalsWithJavaSeptember2023._1JavaFundamentals._07AssociativeArrays._1Lab;
+package _2ProgrammingFundamentalsWithJavaSeptember2023._1JavaFundamentals._7AssociativeArrays._1Lab;
 
 import java.util.Arrays;
 import java.util.Scanner;
