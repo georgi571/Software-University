@@ -1,4 +1,4 @@
-package _2ProgrammingFundamentalsWithJavaSeptember2023._2FundamentalsExamsPreparation._1.ProgrammingFundamentalsMidExamRetake;
+package _2ProgrammingFundamentalsWithJavaSeptember2023._2FundamentalsExamsPreparation._1ProgrammingFundamentalsMidExamRetake;
 
 import java.util.Scanner;
 
