@@ -1,4 +1,4 @@
-package _2ProgrammingFundamentalsWithJavaSeptember2023._2FundamentalsExamsPreparation._2.ProgrammingFundamentalsMidExam;
+package _2ProgrammingFundamentalsWithJavaSeptember2023._2FundamentalsExamsPreparation._2ProgrammingFundamentalsMidExam;
 
 import java.util.Arrays;
 import java.util.Scanner;
