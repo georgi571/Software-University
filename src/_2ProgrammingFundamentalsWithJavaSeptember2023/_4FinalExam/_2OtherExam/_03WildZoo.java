@@ -1,7 +1,5 @@
 package _2ProgrammingFundamentalsWithJavaSeptember2023._4FinalExam._2OtherExam;
 
-import com.sun.source.tree.IfTree;
-
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
