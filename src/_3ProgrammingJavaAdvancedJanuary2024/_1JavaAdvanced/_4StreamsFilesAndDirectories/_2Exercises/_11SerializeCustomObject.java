@@ -12,6 +12,5 @@ public class _11SerializeCustomObject {
         FileInputStream fileInputStream = new FileInputStream("D:\\SoftwareUniversity\\Softrware-University\\src\\_3ProgrammingJavaAdvancedJanuary2024\\_1JavaAdvanced\\_4StreamsFilesAndDirectories\\JavaAdvancedFilesAndStreamsExercisesResources\\course.ser");
         ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
         Course deserializedCourse = (Course) objectInputStream.readObject();
-
     }
 }
