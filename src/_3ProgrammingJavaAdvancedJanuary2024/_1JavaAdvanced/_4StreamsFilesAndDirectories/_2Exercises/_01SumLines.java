@@ -8,7 +8,7 @@ import java.nio.file.Path;
 
 public class _01SumLines {
     public static void main(String[] args) throws IOException {
-        BufferedReader reader = Files.newBufferedReader(Path.of("D:\\SoftwareUniversity\\Softrware-University\\src\\_3ProgrammingJavaAdvancedJanuary2024\\_1JavaAdvanced\\_4StreamsFilesAndDirectories\\JavaAdvancedFilesAndStreamsExercisesResources\\input.txt"));
+        BufferedReader reader = Files.newBufferedReader(Path.of("D:\\SoftwareUniversity\\Software-University\\src\\_3ProgrammingJavaAdvancedJanuary2024\\_1JavaAdvanced\\_4StreamsFilesAndDirectories\\JavaAdvancedFilesAndStreamsExercisesResources\\input.txt"));
         String line = reader.readLine();
         while (line != null) {
             char[] chars = line.toCharArray();

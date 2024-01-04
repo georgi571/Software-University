@@ -5,7 +5,7 @@ import java.util.ArrayDeque;
 
 public class _08NestedFolders {
     public static void main(String[] args) {
-        File root = new File("D:\\SoftwareUniversity\\Softrware-University\\src\\_3ProgrammingJavaAdvancedJanuary2024\\_1JavaAdvanced\\_4StreamsFilesAndDirectories\\_JavaAdvancedFilesAndStreamsLabResources\\FilesAndStreams");
+        File root = new File("D:\\SoftwareUniversity\\Software-University\\src\\_3ProgrammingJavaAdvancedJanuary2024\\_1JavaAdvanced\\_4StreamsFilesAndDirectories\\_JavaAdvancedFilesAndStreamsLabResources\\FilesAndStreams");
         int count = 0;
         ArrayDeque<File> queue = new ArrayDeque<>();
         queue.offer(root);

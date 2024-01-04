@@ -11,9 +11,9 @@ import java.util.Map;
 public class _06WordCount {
     public static void main(String[] args) throws IOException {
         Map<String, Integer> words = new HashMap<>();
-        BufferedReader reader1 = Files.newBufferedReader(Path.of("D:\\SoftwareUniversity\\Softrware-University\\src\\_3ProgrammingJavaAdvancedJanuary2024\\_1JavaAdvanced\\_4StreamsFilesAndDirectories\\JavaAdvancedFilesAndStreamsExercisesResources\\words.txt"));
-        BufferedReader reader2 = Files.newBufferedReader(Path.of("D:\\SoftwareUniversity\\Softrware-University\\src\\_3ProgrammingJavaAdvancedJanuary2024\\_1JavaAdvanced\\_4StreamsFilesAndDirectories\\JavaAdvancedFilesAndStreamsExercisesResources\\text.txt"));
-        BufferedWriter writer = Files.newBufferedWriter(Path.of("D:\\SoftwareUniversity\\Softrware-University\\src\\_3ProgrammingJavaAdvancedJanuary2024\\_1JavaAdvanced\\_4StreamsFilesAndDirectories\\JavaAdvancedFilesAndStreamsExercisesResources\\result.txt"));
+        BufferedReader reader1 = Files.newBufferedReader(Path.of("D:\\SoftwareUniversity\\Software-University\\src\\_3ProgrammingJavaAdvancedJanuary2024\\_1JavaAdvanced\\_4StreamsFilesAndDirectories\\JavaAdvancedFilesAndStreamsExercisesResources\\words.txt"));
+        BufferedReader reader2 = Files.newBufferedReader(Path.of("D:\\SoftwareUniversity\\Software-University\\src\\_3ProgrammingJavaAdvancedJanuary2024\\_1JavaAdvanced\\_4StreamsFilesAndDirectories\\JavaAdvancedFilesAndStreamsExercisesResources\\text.txt"));
+        BufferedWriter writer = Files.newBufferedWriter(Path.of("D:\\SoftwareUniversity\\Software-University\\src\\_3ProgrammingJavaAdvancedJanuary2024\\_1JavaAdvanced\\_4StreamsFilesAndDirectories\\JavaAdvancedFilesAndStreamsExercisesResources\\result.txt"));
         String line = reader1.readLine();
         while (line != null) {
             String[] lineArray = line.split("\\s+");

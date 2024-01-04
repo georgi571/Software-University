@@ -8,8 +8,8 @@ import java.nio.file.Path;
 
 public class _05LineNumbers {
     public static void main(String[] args) throws IOException {
-        BufferedReader reader = Files.newBufferedReader(Path.of("D:\\SoftwareUniversity\\Softrware-University\\src\\_3ProgrammingJavaAdvancedJanuary2024\\_1JavaAdvanced\\_4StreamsFilesAndDirectories\\JavaAdvancedFilesAndStreamsExercisesResources\\inputLineNumbers.txt"));
-        BufferedWriter writer = Files.newBufferedWriter(Path.of("D:\\SoftwareUniversity\\Softrware-University\\src\\_3ProgrammingJavaAdvancedJanuary2024\\_1JavaAdvanced\\_4StreamsFilesAndDirectories\\JavaAdvancedFilesAndStreamsExercisesResources\\output5.txt"));
+        BufferedReader reader = Files.newBufferedReader(Path.of("D:\\SoftwareUniversity\\Software-University\\src\\_3ProgrammingJavaAdvancedJanuary2024\\_1JavaAdvanced\\_4StreamsFilesAndDirectories\\JavaAdvancedFilesAndStreamsExercisesResources\\inputLineNumbers.txt"));
+        BufferedWriter writer = Files.newBufferedWriter(Path.of("D:\\SoftwareUniversity\\Software-University\\src\\_3ProgrammingJavaAdvancedJanuary2024\\_1JavaAdvanced\\_4StreamsFilesAndDirectories\\JavaAdvancedFilesAndStreamsExercisesResources\\output5.txt"));
         String line = reader.readLine();
         int counter = 1;
         while (line != null) {
