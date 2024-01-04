@@ -1,2 +1,2 @@
-# Softrware-University
-Softrware University Learning
+# Software-University
+Software University Learning
