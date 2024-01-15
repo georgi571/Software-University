@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class _07Crossfire {
+public class _07Crossfire_List {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List<List<Integer>> matrix = getMatrix(scanner);
