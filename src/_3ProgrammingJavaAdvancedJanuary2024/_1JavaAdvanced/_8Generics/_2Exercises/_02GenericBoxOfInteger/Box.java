@@ -1,4 +1,4 @@
-package _3ProgrammingJavaAdvancedJanuary2024._1JavaAdvanced._8Generics._2Exercises._01GenericBox;
+package _3ProgrammingJavaAdvancedJanuary2024._1JavaAdvanced._8Generics._2Exercises._02GenericBoxOfInteger;
 
 public class Box<T> {
     private T data;
@@ -9,7 +9,6 @@ public class Box<T> {
 
     @Override
     public String toString() {
-
         return String.format("%s: %s",this.data.getClass().getName(), this.data);
     }
 }
