@@ -10,7 +10,7 @@ public class _02TheGambler {
         int row = getRow(matrix);
         int col = getRowCol(matrix);
         int amount = 100;
-        playgamble(scanner, matrix, row, col, amount);
+        playGamble(scanner, matrix, row, col, amount);
     }
     private static char[][] fillMatrix(int n, Scanner scanner) {
         char[][] matrix = new char[n][];
@@ -42,7 +42,7 @@ public class _02TheGambler {
         }
         return col;
     }
-    private static void playgamble(Scanner scanner, char[][] matrix, int row, int col, int amount) {
+    private static void playGamble(Scanner scanner, char[][] matrix, int row, int col, int amount) {
         String command = scanner.nextLine();
         while (!command.equals("end")) {
             matrix[row][col] = '-';
