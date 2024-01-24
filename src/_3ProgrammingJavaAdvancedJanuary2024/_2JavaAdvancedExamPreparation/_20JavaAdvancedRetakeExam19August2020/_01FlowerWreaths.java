@@ -6,12 +6,12 @@ import java.util.stream.Collectors;
 public class _01FlowerWreaths {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Deque<Integer> roses  = new ArrayDeque<>();
-        List<Integer> allRoses  = Arrays.stream(scanner.nextLine().split(", "))
+        Deque<Integer> roses = new ArrayDeque<>();
+        List<Integer> allRoses = Arrays.stream(scanner.nextLine().split(", "))
                 .map(Integer::parseInt)
                 .collect(Collectors.toList());
         for (int i = 0; i < allRoses.size(); i++) {
-            roses .offer(allRoses.get(i));
+            roses.offer(allRoses.get(i));
         }
         Deque<Integer> lilies = new ArrayDeque<>();
         List<Integer> allLilies = Arrays.stream(scanner.nextLine().split(", "))
