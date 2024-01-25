@@ -1,18 +1,19 @@
-package _3ProgrammingJavaAdvancedJanuary2024._2JavaAdvancedExamPreparation._14JavaAdvancedRegularExam23October2021;
+package _3ProgrammingJavaAdvancedJanuary2024._2JavaAdvancedExamPreparation._15JavaAdvancedRetakeExam18August2021;
 
 import java.util.Scanner;
 
-public class _02MouseAndCheese {
+public class _02FormulaOne {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        char[][] matrix = fillMatrix(scanner);
+        int size = Integer.parseInt(scanner.nextLine());
+        int numberOfCommands = Integer.parseInt(scanner.nextLine());
+        char[][] matrix = fillMatrix(size, scanner);
         int row = getRow(matrix);
         int col = getRowCol(matrix);
-        playMouseAndCheese(scanner, matrix, row, col);
+        playFormulaOne(scanner, matrix, row, col, numberOfCommands);
     }
 
-    private static char[][] fillMatrix(Scanner scanner) {
-        int size = Integer.parseInt(scanner.nextLine());
+    private static char[][] fillMatrix(int size, Scanner scanner) {
         char[][] matrix = new char[size][];
         for (int rows = 0; rows < size; rows++) {
             char[] input = scanner.nextLine().toCharArray();
@@ -25,7 +26,7 @@ public class _02MouseAndCheese {
         int row = 0;
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
-                if (matrix[i][j] == 'M') {
+                if (matrix[i][j] == 'P') {
                     row = i;
                 }
             }
@@ -37,7 +38,7 @@ public class _02MouseAndCheese {
         int col = 0;
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
-                if (matrix[i][j] == 'M') {
+                if (matrix[i][j] == 'P') {
                     col = j;
                 }
             }
@@ -45,11 +46,12 @@ public class _02MouseAndCheese {
         return col;
     }
 
-    private static void playMouseAndCheese(Scanner scanner, char[][] matrix, int row, int col) {
-        int eatenCheese = 0;
+    private static void playFormulaOne(Scanner scanner, char[][] matrix, int row, int col, int numberOfCommands) {
+        matrix[row][col] = '.';
         String command = scanner.nextLine();
-        while (!command.equals("end")) {
-            matrix[row][col] = '-';
+        for (int i = 0; i < numberOfCommands; i++) {
+            int oldRow = row;
+            int oldCol = col;
             if (command.equals("up")) {
                 row--;
             } else if (command.equals("down")) {
@@ -60,32 +62,48 @@ public class _02MouseAndCheese {
                 col++;
             }
             if ((row < 0 || row > matrix.length - 1) || (col < 0 || col > matrix[0].length - 1)) {
-                System.out.printf("Where is the mouse?%n");
-                break;
+                if (row < 0) {
+                    row = matrix.length - 1;
+                }
+                if (row > matrix.length - 1) {
+                    row = 0;
+                }
+                if (col < 0) {
+                    col = matrix[0].length - 1;
+                }
+                if (col > matrix[0].length - 1) {
+                    col = 0;
+                }
+                if (i < numberOfCommands - 1) {
+                    command = scanner.nextLine();
+                }
             } else {
                 char symbol = matrix[row][col];
-                if (symbol == 'c') {
-                    eatenCheese++;
-                    matrix[row][col] = 'M';
+                if (symbol == 'T') {
+                    row = oldRow;
+                    col = oldCol;
                     command = scanner.nextLine();
                 } else if (symbol == 'B') {
-                    matrix[row][col] = 'M';
                     command = command;
+                    i--;
+                } else if (symbol == 'F') {
+                    matrix[row][col] = 'P';
+                    System.out.printf("Well done, the player won first place!%n");
+                    printFormulaOne(matrix);
+                    return;
                 } else {
-                    matrix[row][col] = 'M';
-                    command = scanner.nextLine();
+                    if (i < numberOfCommands - 1) {
+                        command = scanner.nextLine();
+                    }
                 }
             }
         }
-        if (eatenCheese >= 5) {
-            System.out.printf("Great job, the mouse is fed %d cheeses!%n", eatenCheese);
-        } else {
-            System.out.printf("The mouse couldn't eat the cheeses, she needed %d cheeses more.%n", (5 - eatenCheese));
-        }
-        printMouseAndCheese(matrix);
+        matrix[row][col] = 'P';
+        System.out.printf("Oh no, the player got lost on the track!%n");
+        printFormulaOne(matrix);
     }
 
-    private static void printMouseAndCheese(char[][] matrix) {
+    private static void printFormulaOne(char[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             StringBuilder stringBuilder = new StringBuilder();
             for (int j = 0; j < matrix[i].length; j++) {
