@@ -1,7 +1,5 @@
 package _3ProgrammingJavaAdvancedJanuary2024._2JavaAdvancedExamPreparation._01JavaAdvancedRetakeExam13December2023._03FishingPond.fishingPond;
 
-import _3ProgrammingJavaAdvancedJanuary2024._2JavaAdvancedExamPreparation._02JavaAdvancedRegularExam21October2023._03Halloween.halloween.Kid;
-
 import java.util.ArrayList;
 import java.util.List;
 
