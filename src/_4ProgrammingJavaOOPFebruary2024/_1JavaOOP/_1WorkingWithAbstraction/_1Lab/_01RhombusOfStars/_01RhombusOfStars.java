@@ -1,4 +1,4 @@
-package _4ProgrammingJavaOOPFebruary2024._1JavaOOP._1WorkingWithAbstraction._1Lab;
+package _4ProgrammingJavaOOPFebruary2024._1JavaOOP._1WorkingWithAbstraction._1Lab._01RhombusOfStars;
 
 import java.util.Scanner;
 
