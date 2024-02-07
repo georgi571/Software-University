@@ -1,0 +1,7 @@
+package _4ProgrammingJavaOOPFebruary2024._1JavaOOP._3Inheritance._2Exersices._05Restaurant.restaurant;
+
+public class Main {
+    public static void main(String[] args) {
+
+    }
+}
