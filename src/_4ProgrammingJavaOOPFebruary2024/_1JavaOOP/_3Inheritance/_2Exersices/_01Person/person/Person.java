@@ -1,4 +1,4 @@
-package _4ProgrammingJavaOOPFebruary2024._1JavaOOP._3Inheritance._2Exersices._01Person;
+package _4ProgrammingJavaOOPFebruary2024._1JavaOOP._3Inheritance._2Exersices._01Person.person;
 
 public class Person {
     private String name;
