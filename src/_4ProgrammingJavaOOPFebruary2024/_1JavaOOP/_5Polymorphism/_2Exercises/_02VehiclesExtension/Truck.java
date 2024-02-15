@@ -1,7 +1,5 @@
 package _4ProgrammingJavaOOPFebruary2024._1JavaOOP._5Polymorphism._2Exercises._02VehiclesExtension;
 
-import _4ProgrammingJavaOOPFebruary2024._1JavaOOP._5Polymorphism._2Exercises._02VehiclesExtension.BaseVehicles;
-
 public class Truck extends BaseVehicles {
     private final static double ADDITIONAL_AC_CONSUMPTION = 1.6;
     private final static double REFUEL_PERCENTAGE = 0.95;
