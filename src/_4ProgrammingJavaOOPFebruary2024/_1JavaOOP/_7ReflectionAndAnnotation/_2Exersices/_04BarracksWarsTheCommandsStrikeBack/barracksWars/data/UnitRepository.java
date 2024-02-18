@@ -1,6 +1,5 @@
 package _4ProgrammingJavaOOPFebruary2024._1JavaOOP._7ReflectionAndAnnotation._2Exersices._04BarracksWarsTheCommandsStrikeBack.barracksWars.data;
 
-
 import _4ProgrammingJavaOOPFebruary2024._1JavaOOP._7ReflectionAndAnnotation._2Exersices._04BarracksWarsTheCommandsStrikeBack.barracksWars.interfaces.Repository;
 import _4ProgrammingJavaOOPFebruary2024._1JavaOOP._7ReflectionAndAnnotation._2Exersices._04BarracksWarsTheCommandsStrikeBack.barracksWars.interfaces.Unit;
 
@@ -8,7 +7,6 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class UnitRepository implements Repository {
-
 	private Map<String, Integer> amountOfUnits;
 
 	public UnitRepository() {

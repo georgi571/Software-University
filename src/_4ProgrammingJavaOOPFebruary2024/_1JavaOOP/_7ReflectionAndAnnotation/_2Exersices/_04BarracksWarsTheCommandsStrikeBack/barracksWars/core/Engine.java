@@ -1,16 +1,18 @@
 package _4ProgrammingJavaOOPFebruary2024._1JavaOOP._7ReflectionAndAnnotation._2Exersices._04BarracksWarsTheCommandsStrikeBack.barracksWars.core;
 
 
+import _4ProgrammingJavaOOPFebruary2024._1JavaOOP._7ReflectionAndAnnotation._2Exersices._04BarracksWarsTheCommandsStrikeBack.barracksWars.interfaces.Executable;
 import _4ProgrammingJavaOOPFebruary2024._1JavaOOP._7ReflectionAndAnnotation._2Exersices._04BarracksWarsTheCommandsStrikeBack.barracksWars.interfaces.Repository;
-import _4ProgrammingJavaOOPFebruary2024._1JavaOOP._7ReflectionAndAnnotation._2Exersices._04BarracksWarsTheCommandsStrikeBack.barracksWars.interfaces.Unit;
 import _4ProgrammingJavaOOPFebruary2024._1JavaOOP._7ReflectionAndAnnotation._2Exersices._04BarracksWarsTheCommandsStrikeBack.barracksWars.interfaces.UnitFactory;
-import jdk.jshell.spi.ExecutionControl;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 
 public class Engine implements Runnable {
+	private static final String COMMAND_PATH = "_4ProgrammingJavaOOPFebruary2024._1JavaOOP._7ReflectionAndAnnotation._2Exersices._04BarracksWarsTheCommandsStrikeBack.barracksWars.core.commands.";
 
 	private Repository repository;
 	private UnitFactory unitFactory;
@@ -36,53 +38,23 @@ public class Engine implements Runnable {
 				System.out.println(result);
 			} catch (RuntimeException e) {
 				System.out.println(e.getMessage());
-			} catch (IOException | ExecutionControl.NotImplementedException e) {
+			} catch (IOException e) {
 				e.printStackTrace();
 			}
 		}
 	}
 
-	private String interpretCommand(String[] data, String commandName) throws ExecutionControl.NotImplementedException {
-		String result;
-		switch (commandName) {
-			case "add":
-				result = this.addUnitCommand(data);
-				break;
-			case "report":
-				result = this.reportCommand(data);
-				break;
-			case "fight":
-				result = this.fightCommand(data);
-				break;
-			case "retire":
-				result = this.retireCommand(data);
-				break;
-			default:
-				throw new RuntimeException("Invalid command!");
+	private String interpretCommand(String[] data, String commandName) {
+		Executable command = null;
+		commandName = Character.toUpperCase(commandName.charAt(0)) + commandName.substring(1);
+		try {
+			Class<?> clazz = Class.forName(COMMAND_PATH + commandName);
+			Constructor<?> constructor = clazz.getDeclaredConstructor(String[].class, Repository.class, UnitFactory.class);
+			command = (Executable) constructor.newInstance(data, repository, unitFactory);
+		} catch (ClassNotFoundException | NoSuchMethodException | InstantiationException | IllegalAccessException |
+                 InvocationTargetException e) {
+			throw new RuntimeException(e);
 		}
-		return result;
-	}
-
-	private String retireCommand(String[] data)  {
-		String unitType = data[1];
-		this.repository.removeUnit(unitType);
-		String output = unitType + " retired!";
-		return output;
-	}
-	private String reportCommand(String[] data) {
-		String output = this.repository.getStatistics();
-		return output;
-	}
-
-	private String addUnitCommand(String[] data) throws ExecutionControl.NotImplementedException {
-		String unitType = data[1];
-		Unit unitToAdd = this.unitFactory.createUnit(unitType);
-		this.repository.addUnit(unitToAdd);
-		String output = unitType + " added!";
-		return output;
-	}
-	
-	private String fightCommand(String[] data) {
-		return "fight";
+		return command.execute();
 	}
 }

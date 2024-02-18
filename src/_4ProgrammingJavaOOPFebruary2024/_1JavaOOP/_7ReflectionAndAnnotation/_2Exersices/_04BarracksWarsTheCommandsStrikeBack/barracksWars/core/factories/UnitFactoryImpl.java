@@ -1,10 +1,8 @@
 package _4ProgrammingJavaOOPFebruary2024._1JavaOOP._7ReflectionAndAnnotation._2Exersices._04BarracksWarsTheCommandsStrikeBack.barracksWars.core.factories;
 
-
 import _4ProgrammingJavaOOPFebruary2024._1JavaOOP._7ReflectionAndAnnotation._2Exersices._04BarracksWarsTheCommandsStrikeBack.barracksWars.interfaces.Unit;
 import _4ProgrammingJavaOOPFebruary2024._1JavaOOP._7ReflectionAndAnnotation._2Exersices._04BarracksWarsTheCommandsStrikeBack.barracksWars.interfaces.UnitFactory;
 
-import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 public class UnitFactoryImpl implements UnitFactory {
@@ -14,13 +12,13 @@ public class UnitFactoryImpl implements UnitFactory {
 
 	@Override
 	public Unit createUnit(String unitType) {
+		Unit unit = null;
 		try {
-			Class unitClass = Class.forName(UNITS_PACKAGE_NAME + unitType);
-			Constructor<Unit> constructor = unitClass.getDeclaredConstructor();
-			return constructor.newInstance();
+			Class<?> clazz = Class.forName(UNITS_PACKAGE_NAME + unitType);
+			unit = (Unit) clazz.getDeclaredConstructor().newInstance();
 		} catch (ClassNotFoundException | NoSuchMethodException | InvocationTargetException | InstantiationException | IllegalAccessException e) {
 			System.out.printf("%s%n",e.getMessage());
 		}
-		return null;
+		return unit;
 	}
 }
