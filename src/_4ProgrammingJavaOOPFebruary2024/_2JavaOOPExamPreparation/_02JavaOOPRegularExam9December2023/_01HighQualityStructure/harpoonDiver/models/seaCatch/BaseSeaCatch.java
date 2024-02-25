@@ -3,7 +3,7 @@ package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._02JavaOOPRegu
 import java.util.Collection;
 import java.util.List;
 
-public class BaseSeaCatch implements SeaCatch{
+public abstract class BaseSeaCatch implements SeaCatch{
     List<SeaCatch> seaCreatures;
 
     public BaseSeaCatch() {

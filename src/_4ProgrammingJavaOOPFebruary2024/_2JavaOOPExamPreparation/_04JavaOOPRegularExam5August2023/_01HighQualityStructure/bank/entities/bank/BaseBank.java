@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._04JavaOOPRegularExam5August2023._01HighQualityStructure.bank.common.ExceptionMessages.BANK_NAME_CANNOT_BE_NULL_OR_EMPTY;
 import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._04JavaOOPRegularExam5August2023._01HighQualityStructure.bank.common.ExceptionMessages.NOT_ENOUGH_CAPACITY_FOR_CLIENT;
 
-public class BaseBank implements Bank{
+public abstract class BaseBank implements Bank{
     private String name;
     private int capacity;
     private Collection<Loan> loans;

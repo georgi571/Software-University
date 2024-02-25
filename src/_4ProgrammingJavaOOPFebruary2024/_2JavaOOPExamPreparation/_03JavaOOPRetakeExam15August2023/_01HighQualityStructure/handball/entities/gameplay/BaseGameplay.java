@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._03JavaOOPRetakeExam15August2023._01HighQualityStructure.handball.common.ExceptionMessages.GAMEPLAY_NAME_NULL_OR_EMPTY;
 
-public class BaseGameplay implements Gameplay {
+public abstract class BaseGameplay implements Gameplay {
     private String name;
     private int capacity;
     private Collection<Equipment> equipments;
