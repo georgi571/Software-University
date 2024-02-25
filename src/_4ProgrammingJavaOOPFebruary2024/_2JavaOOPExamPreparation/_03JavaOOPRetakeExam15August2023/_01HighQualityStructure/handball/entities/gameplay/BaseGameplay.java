@@ -21,7 +21,7 @@ public class BaseGameplay implements Gameplay {
     }
 
     public void setName(String name) {
-        if (name == null && name.trim().isEmpty()) {
+        if (name == null || name.trim().isEmpty()) {
             throw new NullPointerException(GAMEPLAY_NAME_NULL_OR_EMPTY);
         }
         this.name = name;

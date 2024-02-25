@@ -21,7 +21,7 @@ public abstract class BaseClimber implements Climber{
     }
 
     public void setName(String name) {
-        if (name == null && name.trim().isEmpty()) {
+        if (name == null || name.trim().isEmpty()) {
             throw new NullPointerException(CLIMBER_NAME_NULL_OR_EMPTY);
         }
         this.name = name;

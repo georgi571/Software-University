@@ -24,7 +24,7 @@ public abstract class BaseDiver implements Diver{
     }
 
     private void setName(String name) {
-        if (name == null && name.trim().isEmpty()) {
+        if (name == null || name.trim().isEmpty()) {
             throw new NullPointerException(DIVER_NAME_NULL_OR_EMPTY);
         }
         this.name = name;

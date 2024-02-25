@@ -14,7 +14,7 @@ public abstract class BaseTeam implements Team{
     }
 
     public void setName(String name) {
-        if (name == null && name.trim().isEmpty()) {
+        if (name == null || name.trim().isEmpty()) {
             throw new NullPointerException(TEAM_NAME_NULL_OR_EMPTY);
         }
         this.name = name;
@@ -22,7 +22,7 @@ public abstract class BaseTeam implements Team{
     }
 
     public void setCountry(String country) {
-        if (country == null && country.trim().isEmpty()) {
+        if (country == null || country.trim().isEmpty()) {
             throw new NullPointerException(TEAM_COUNTRY_NULL_OR_EMPTY);
         }
         this.country = country;
