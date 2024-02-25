@@ -1,0 +1,4 @@
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._03JavaOOPRetakeExam15August2023._01HighQualityStructure.handball.core;
+
+public interface Engine extends Runnable{
+}
