@@ -1,0 +1,5 @@
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._01JavaOOPRetakeExam19December2023._02BusinessLogic.climbers.core;
+
+public interface Engine extends Runnable{
+
+}

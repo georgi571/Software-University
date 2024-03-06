@@ -1,17 +1,19 @@
-package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._01JavaOOPRetakeExam19December2023._01HighQualityStructure.climbers.models.mountain;
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._01JavaOOPRetakeExam19December2023._02BusinessLogic.climbers.models.mountain;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
-import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._01JavaOOPRetakeExam19December2023._01HighQualityStructure.climbers.common.ExceptionMessages.MOUNTAIN_NAME_NULL_OR_EMPTY;
+import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._01JavaOOPRetakeExam19December2023._02BusinessLogic.climbers.common.ExceptionMessages.MOUNTAIN_NAME_NULL_OR_EMPTY;
 
-public class MountainImpl implements Mountain{
+
+public class MountainImpl implements Mountain {
     private String name;
     private List<String> peaks;
 
     public MountainImpl(String name) {
-        this.setName(name);
+        this.name = name;
         this.peaks = new ArrayList<>();
     }
 
