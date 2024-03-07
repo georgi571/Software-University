@@ -1,14 +1,14 @@
-package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._03JavaOOPRetakeExam15August2023._01HighQualityStructure.handball.entities.gameplay;
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._03JavaOOPRetakeExam15August2023._02BusinessLogic.handball.entities.gameplay;
 
-import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._03JavaOOPRetakeExam15August2023._01HighQualityStructure.handball.entities.equipment.Equipment;
-import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._03JavaOOPRetakeExam15August2023._01HighQualityStructure.handball.entities.team.Team;
+import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._03JavaOOPRetakeExam15August2023._02BusinessLogic.handball.entities.equipment.Equipment;
+import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._03JavaOOPRetakeExam15August2023._02BusinessLogic.handball.entities.team.Team;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.stream.Collectors;
 
-import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._03JavaOOPRetakeExam15August2023._01HighQualityStructure.handball.common.ExceptionMessages.GAMEPLAY_NAME_NULL_OR_EMPTY;
+import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._03JavaOOPRetakeExam15August2023._02BusinessLogic.handball.common.ExceptionMessages.GAMEPLAY_NAME_NULL_OR_EMPTY;
+
 
 public abstract class BaseGameplay implements Gameplay {
     private String name;
@@ -66,12 +66,12 @@ public abstract class BaseGameplay implements Gameplay {
 
     @Override
     public Collection<Team> getTeam() {
-        return Collections.unmodifiableCollection(teams);
+        return this.teams;
     }
 
     @Override
     public Collection<Equipment> getEquipments() {
-        return Collections.unmodifiableCollection(equipments);
+        return this.equipments;
     }
 
     @Override
