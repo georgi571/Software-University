@@ -1,11 +1,11 @@
-package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._04JavaOOPRegularExam5August2023._01HighQualityStructure.bank.repositories;
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._04JavaOOPRegularExam5August2023._02BusinessLogic.bank.repositories;
 
-import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._04JavaOOPRegularExam5August2023._01HighQualityStructure.bank.entities.loan.Loan;
+import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._04JavaOOPRegularExam5August2023._02BusinessLogic.bank.entities.loan.Loan;
 
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class LoanRepository implements Repository{
+public class LoanRepository implements Repository {
     private Collection<Loan> loans;
 
     public LoanRepository() {
