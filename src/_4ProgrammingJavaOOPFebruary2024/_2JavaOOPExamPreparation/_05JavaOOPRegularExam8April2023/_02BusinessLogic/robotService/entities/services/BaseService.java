@@ -1,15 +1,16 @@
-package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._05JavaOOPRegularExam8April2023._01HighQualityStructure.robotService.entities.services;
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._05JavaOOPRegularExam8April2023._02BusinessLogic.robotService.entities.services;
 
-import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._05JavaOOPRegularExam8April2023._01HighQualityStructure.robotService.entities.robot.Robot;
-import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._05JavaOOPRegularExam8April2023._01HighQualityStructure.robotService.entities.supplements.Supplement;
+import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._05JavaOOPRegularExam8April2023._02BusinessLogic.robotService.entities.robot.Robot;
+import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._05JavaOOPRegularExam8April2023._02BusinessLogic.robotService.entities.supplements.Supplement;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.stream.Collectors;
 
-import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._05JavaOOPRegularExam8April2023._01HighQualityStructure.robotService.common.ConstantMessages.NOT_ENOUGH_CAPACITY_FOR_ROBOT;
-import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._05JavaOOPRegularExam8April2023._01HighQualityStructure.robotService.common.ExceptionMessages.SERVICE_NAME_CANNOT_BE_NULL_OR_EMPTY;
+import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._05JavaOOPRegularExam8April2023._02BusinessLogic.robotService.common.ConstantMessages.NOT_ENOUGH_CAPACITY_FOR_ROBOT;
+import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._05JavaOOPRegularExam8April2023._02BusinessLogic.robotService.common.ExceptionMessages.SERVICE_NAME_CANNOT_BE_NULL_OR_EMPTY;
+
 
 public abstract class BaseService implements Service {
     private String name;
@@ -49,7 +50,7 @@ public abstract class BaseService implements Service {
 
     @Override
     public void addRobot(Robot robot) {
-        if (this.capacity >= robots.size()) {
+        if (this.capacity <= robots.size()) {
             throw new IllegalStateException(NOT_ENOUGH_CAPACITY_FOR_ROBOT);
         }
         this.robots.add(robot);
@@ -84,11 +85,11 @@ public abstract class BaseService implements Service {
     @Override
     public String getStatistics() {
         if (this.robots.isEmpty()) {
-            return String.format("%s %s%nRobots: none%nSupplements: %d Hardness: %d%n",
+            return String.format("%s %s:%nRobots: none%nSupplements: %d Hardness: %d%n",
                     this.name, this.getClass().getSimpleName(),
                     this.supplements.size(), sumHardness());
         }
-        return String.format("%s %s%nRobots: %s%nSupplements: %d Hardness: %d%n",
+        return String.format("%s %s:%nRobots: %s%nSupplements: %d Hardness: %d%n",
                 this.name, this.getClass().getSimpleName(),
                 this.robots.stream().map(Robot::getName).collect(Collectors.joining(" ")),
                 this.supplements.size(), sumHardness());

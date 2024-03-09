@@ -1,11 +1,11 @@
-package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._05JavaOOPRegularExam8April2023._01HighQualityStructure.robotService.repositories;
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._05JavaOOPRegularExam8April2023._02BusinessLogic.robotService.repositories;
 
-import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._05JavaOOPRegularExam8April2023._01HighQualityStructure.robotService.entities.supplements.Supplement;
+import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._05JavaOOPRegularExam8April2023._02BusinessLogic.robotService.entities.supplements.Supplement;
 
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class SupplementRepository implements Repository{
+public class SupplementRepository implements Repository {
     private Collection<Supplement> supplements;
 
     public SupplementRepository() {
@@ -31,7 +31,9 @@ public class SupplementRepository implements Repository{
     @Override
     public Supplement findFirst(String type) {
         for (Supplement supplement : this.supplements) {
-            if (supplement.getClass().getSimpleName().equals(type));
+            if (supplement.getClass().getSimpleName().equals(type)) {
+                return supplement;
+            }
         }
         return null;
     }
