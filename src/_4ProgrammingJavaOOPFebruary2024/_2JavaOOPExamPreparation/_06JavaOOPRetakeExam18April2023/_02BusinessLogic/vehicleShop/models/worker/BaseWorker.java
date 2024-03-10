@@ -1,15 +1,16 @@
-package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._06JavaOOPRetakeExam18April2023._01HighQualityStructure.vehicleShop.models.worker;
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._06JavaOOPRetakeExam18April2023._02BusinessLogic.vehicleShop.models.worker;
 
-import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._06JavaOOPRetakeExam18April2023._01HighQualityStructure.vehicleShop.models.tool.Tool;
+import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._06JavaOOPRetakeExam18April2023._02BusinessLogic.vehicleShop.models.tool.Tool;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 
-import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._06JavaOOPRetakeExam18April2023._01HighQualityStructure.vehicleShop.common.ExceptionMessages.WORKER_NAME_NULL_OR_EMPTY;
-import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._06JavaOOPRetakeExam18April2023._01HighQualityStructure.vehicleShop.common.ExceptionMessages.WORKER_STRENGTH_LESS_THAN_ZERO;
+import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._06JavaOOPRetakeExam18April2023._02BusinessLogic.vehicleShop.common.ExceptionMessages.WORKER_NAME_NULL_OR_EMPTY;
+import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._06JavaOOPRetakeExam18April2023._02BusinessLogic.vehicleShop.common.ExceptionMessages.WORKER_STRENGTH_LESS_THAN_ZERO;
 
-public abstract class BaseWorker implements Worker{
+
+public abstract class BaseWorker implements Worker {
     private String name;
     private int strength;
     private Collection<Tool> tools;
