@@ -1,12 +1,13 @@
-package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._07JavaOOPRetakeExam19December2022._01HighQualityStructure.magicGame.repositories.interfaces;
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._07JavaOOPRetakeExam19December2022._02BusinessLogic.magicGame.repositories.interfaces;
 
-import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._07JavaOOPRetakeExam19December2022._01HighQualityStructure.magicGame.models.magics.Magic;
+import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._07JavaOOPRetakeExam19December2022._02BusinessLogic.magicGame.models.magics.Magic;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 
-import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._07JavaOOPRetakeExam19December2022._01HighQualityStructure.magicGame.common.ExceptionMessages.INVALID_MAGIC_REPOSITORY;
+import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._07JavaOOPRetakeExam19December2022._02BusinessLogic.magicGame.common.ExceptionMessages.INVALID_MAGIC_REPOSITORY;
+
 
 public class MagicRepositoryImpl implements MagicRepository {
     private Collection<Magic> data;

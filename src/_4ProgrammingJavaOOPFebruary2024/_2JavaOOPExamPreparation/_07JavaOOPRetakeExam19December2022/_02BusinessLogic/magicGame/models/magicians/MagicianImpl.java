@@ -1,8 +1,9 @@
-package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._07JavaOOPRetakeExam19December2022._01HighQualityStructure.magicGame.models.magicians;
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._07JavaOOPRetakeExam19December2022._02BusinessLogic.magicGame.models.magicians;
 
-import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._07JavaOOPRetakeExam19December2022._01HighQualityStructure.magicGame.models.magics.Magic;
+import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._07JavaOOPRetakeExam19December2022._02BusinessLogic.magicGame.models.magics.Magic;
 
-import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._07JavaOOPRetakeExam19December2022._01HighQualityStructure.magicGame.common.ExceptionMessages.*;
+import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._07JavaOOPRetakeExam19December2022._02BusinessLogic.magicGame.common.ExceptionMessages.*;
+
 
 public abstract class MagicianImpl implements Magician {
     private String username;
@@ -87,9 +88,27 @@ public abstract class MagicianImpl implements Magician {
                 this.isAlive = false;
             } else {
                 this.setHealth(this.getHealth() - leftPoints);
+                if (this.getHealth() <= 0) {
+                    this.setHealth(0);
+                    this.isAlive = false;
+                }
             }
         } else {
             setProtection(this.getProtection() - leftPoints);
+                if (this.getHealth() <= 0) {
+                    this.setHealth(0);
+                    this.isAlive = false;
+                }
         }
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder output = new StringBuilder();
+        output.append(String.format("%s: %s", this.getClass().getSimpleName(), this.username)).append(System.lineSeparator());
+        output.append(String.format("Health: %d", this.health)).append(System.lineSeparator());
+        output.append(String.format("Protection: %d", this.protection)).append(System.lineSeparator());
+        output.append(String.format("Magic: %s", this.magic.getName())).append(System.lineSeparator());
+        return output.toString();
     }
 }
