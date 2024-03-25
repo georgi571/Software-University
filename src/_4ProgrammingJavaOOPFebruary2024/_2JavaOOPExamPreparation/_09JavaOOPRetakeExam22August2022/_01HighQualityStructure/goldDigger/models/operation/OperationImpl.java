@@ -10,7 +10,7 @@ public class OperationImpl implements Operation{
     public void startOperation(Spot spot, Collection<Discoverer> discoverers) {
         Collection<String> spots  = spot.getExhibits();
         for (Discoverer discoverer : discoverers) {
-            while (!discoverer.canDig() && spots.iterator().hasNext()) {
+            while (discoverer.canDig() && spots.iterator().hasNext()) {
                 discoverer.dig();
                 String currentSpot = spots.iterator().next();
                 discoverer.getMuseum().getExhibits().add(currentSpot);
