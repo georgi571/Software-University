@@ -1,12 +1,12 @@
-package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._09JavaOOPRetakeExam22August2022._01HighQualityStructure.goldDigger.repositories;
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._09JavaOOPRetakeExam22August2022._02BusinessLogic.goldDigger.repositories;
 
-import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._09JavaOOPRetakeExam22August2022._01HighQualityStructure.goldDigger.models.discoverer.Discoverer;
+import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._09JavaOOPRetakeExam22August2022._02BusinessLogic.goldDigger.models.discoverer.Discoverer;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 
-public class DiscovererRepository implements Repository<Discoverer>{
+public class DiscovererRepository implements Repository<Discoverer> {
     Collection<Discoverer> discoverers;
 
     public DiscovererRepository() {

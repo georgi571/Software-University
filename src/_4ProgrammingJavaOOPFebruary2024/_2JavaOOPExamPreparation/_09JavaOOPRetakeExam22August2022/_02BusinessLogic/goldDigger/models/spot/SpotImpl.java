@@ -1,18 +1,23 @@
-package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._09JavaOOPRetakeExam22August2022._01HighQualityStructure.goldDigger.models.spot;
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._09JavaOOPRetakeExam22August2022._02BusinessLogic.goldDigger.models.spot;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 
-import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._09JavaOOPRetakeExam22August2022._01HighQualityStructure.goldDigger.common.ExceptionMessages.SPOT_NAME_NULL_OR_EMPTY;
+import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._09JavaOOPRetakeExam22August2022._02BusinessLogic.goldDigger.common.ExceptionMessages.SPOT_NAME_NULL_OR_EMPTY;
+
 
 public class SpotImpl implements Spot {
     private String name;
     private Collection<String> exhibits;
 
     public SpotImpl(String name) {
-        this.name = name;
+        this.setName(name);
         this.exhibits = new ArrayList<>();
+    }
+
+    public void setExhibits(Collection<String> exhibits) {
+        this.exhibits = exhibits;
     }
 
     @Override
