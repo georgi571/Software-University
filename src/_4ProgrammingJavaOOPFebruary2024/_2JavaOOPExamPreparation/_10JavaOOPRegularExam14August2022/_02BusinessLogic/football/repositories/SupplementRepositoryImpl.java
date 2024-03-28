@@ -1,7 +1,7 @@
-package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._10JavaOOPRegularExam14August2022._01HighQualityStructure.football.repositories;
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._10JavaOOPRegularExam14August2022._02BusinessLogic.football.repositories;
 
 
-import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._10JavaOOPRegularExam14August2022._01HighQualityStructure.football.entities.supplement.Supplement;
+import _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._10JavaOOPRegularExam14August2022._02BusinessLogic.football.entities.supplement.Supplement;
 
 import java.util.ArrayList;
 import java.util.Collection;
