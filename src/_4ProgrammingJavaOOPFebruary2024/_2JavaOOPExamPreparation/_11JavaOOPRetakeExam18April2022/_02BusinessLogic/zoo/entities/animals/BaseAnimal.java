@@ -1,8 +1,8 @@
-package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._11JavaOOPRetakeExam18April2022._01HighQualityStructure.zoo.entities.animals;
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._11JavaOOPRetakeExam18April2022._02BusinessLogic.zoo.entities.animals;
 
-import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._11JavaOOPRetakeExam18April2022._01HighQualityStructure.zoo.common.ExceptionMessages.*;
+import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._11JavaOOPRetakeExam18April2022._02BusinessLogic.zoo.common.ExceptionMessages.*;
 
-public abstract class BaseAnimal implements Animal{
+public abstract class BaseAnimal implements Animal {
     private String name;
     private String kind;
     private double kg;
@@ -11,7 +11,7 @@ public abstract class BaseAnimal implements Animal{
     public BaseAnimal(String name, String kind, double kg, double price) {
         this.setName(name);
         this.setKind(kind);
-        this.setKg(kg);
+        this.setKg(kg);;
         this.setPrice(price);
     }
 
