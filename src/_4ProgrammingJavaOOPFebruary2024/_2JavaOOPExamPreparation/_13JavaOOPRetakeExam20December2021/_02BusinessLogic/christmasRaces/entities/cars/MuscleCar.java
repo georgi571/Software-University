@@ -1,6 +1,6 @@
-package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._13JavaOOPRetakeExam20December2021._01HighQualityStructure.christmasRaces.entities.cars;
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._13JavaOOPRetakeExam20December2021._02BusinessLogic.christmasRaces.entities.cars;
 
-import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._13JavaOOPRetakeExam20December2021._01HighQualityStructure.christmasRaces.common.ExceptionMessages.INVALID_HORSE_POWER;
+import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._13JavaOOPRetakeExam20December2021._02BusinessLogic.christmasRaces.common.ExceptionMessages.INVALID_HORSE_POWER;
 
 public class MuscleCar extends BaseCar {
     private static final double CUBIC_CENTIMETERS = 5000;
