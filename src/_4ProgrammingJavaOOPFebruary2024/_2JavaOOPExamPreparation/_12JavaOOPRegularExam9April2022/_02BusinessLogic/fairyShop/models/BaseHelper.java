@@ -1,10 +1,11 @@
-package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._12JavaOOPRegularExam9April2022._01HighQualityStructure.fairyShop.models;
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._12JavaOOPRegularExam9April2022._02BusinessLogic.fairyShop.models;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 
-import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._12JavaOOPRegularExam9April2022._01HighQualityStructure.fairyShop.common.ExceptionMessages.HELPER_NAME_NULL_OR_EMPTY;
+import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._12JavaOOPRegularExam9April2022._02BusinessLogic.fairyShop.common.ExceptionMessages.HELPER_NAME_NULL_OR_EMPTY;
+
 
 public abstract class BaseHelper implements Helper {
     private String name;
