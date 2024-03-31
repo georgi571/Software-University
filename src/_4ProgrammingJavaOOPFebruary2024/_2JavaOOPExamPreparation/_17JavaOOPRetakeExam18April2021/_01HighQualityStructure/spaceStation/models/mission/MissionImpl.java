@@ -14,6 +14,7 @@ public class MissionImpl implements Mission{
                 String item = items.iterator().next();
                 astronaut.breath();
                 astronaut.getBag().getItems().add(item);
+                items.remove(item);
             }
         }
     }
