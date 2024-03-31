@@ -20,6 +20,7 @@ public class Rifle extends BaseGun {
                 super.setTotalBullets(0);
             }
         }
+        super.setBulletsPerBarrel(super.getBulletsPerBarrel() - BULLETS_PER_SHOT);
         return BULLETS_PER_SHOT;
     }
 }

@@ -1,4 +1,4 @@
-package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._19JavaOOPRetakeExam19December2020._01HighQualityStructure.viceCity.models.guns;
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._19JavaOOPRetakeExam19December2020._02BusinessLogic.viceCity.models.guns;
 
 public class Pistol extends BaseGun {
     private static final int BULLETS_PER_BARREL = 10;
