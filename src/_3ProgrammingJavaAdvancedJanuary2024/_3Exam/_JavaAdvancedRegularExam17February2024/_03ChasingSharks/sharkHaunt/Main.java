@@ -1,4 +1,4 @@
-package _3ProgrammingJavaAdvancedJanuary2024._3Exam._03ChasingSharks.sharkHaunt;
+package _3ProgrammingJavaAdvancedJanuary2024._3Exam._JavaAdvancedRegularExam17February2024._03ChasingSharks.sharkHaunt;
 
 
 public class Main {

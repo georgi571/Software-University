@@ -1,4 +1,4 @@
-package _3ProgrammingJavaAdvancedJanuary2024._3Exam;
+package _3ProgrammingJavaAdvancedJanuary2024._3Exam._JavaAdvancedRegularExam17February2024;
 
 import java.util.Scanner;
 
