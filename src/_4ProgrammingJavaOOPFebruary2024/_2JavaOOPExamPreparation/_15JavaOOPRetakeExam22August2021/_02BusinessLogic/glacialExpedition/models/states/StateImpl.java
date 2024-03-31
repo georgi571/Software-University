@@ -1,9 +1,9 @@
-package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._15JavaOOPRetakeExam22August2021._01HighQualityStructure.glacialExpedition.models.states;
+package _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._15JavaOOPRetakeExam22August2021._02BusinessLogic.glacialExpedition.models.states;
 
 import java.util.ArrayList;
 import java.util.Collection;
 
-import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._15JavaOOPRetakeExam22August2021._01HighQualityStructure.glacialExpedition.common.ExceptionMessages.STATE_NAME_NULL_OR_EMPTY;
+import static _4ProgrammingJavaOOPFebruary2024._2JavaOOPExamPreparation._15JavaOOPRetakeExam22August2021._02BusinessLogic.glacialExpedition.common.ExceptionMessages.STATE_NAME_NULL_OR_EMPTY;
 
 public class StateImpl implements State {
     private String name;
