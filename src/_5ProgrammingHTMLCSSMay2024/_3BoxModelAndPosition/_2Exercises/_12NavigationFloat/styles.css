@@ -1,0 +1,127 @@
+body {
+    font: 1em/1.2 "Georgia", serif;
+    padding: 4em;
+}
+
+.first-header {
+    border-bottom: 2px solid #ccc;
+}
+
+header .site-title a {
+    color: #000;
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header .site-title,
+header nav {
+    display: inline-block;
+}
+
+header nav ul {
+    padding: 0 0 0 4em;
+    margin: 0;
+}
+
+header nav ul li {
+    left: 150%;
+    position: relative;
+    display: inline;
+    padding: 0 0.5em;
+}
+
+header nav a {
+    color: #090;
+    text-decoration: none;
+    padding: 1em;
+}
+
+header nav a:hover {
+    background: #060;
+    color: #fff;
+}
+
+img {
+    display: inline-block;
+    background-color: #fff;
+    border: 0.4rem solid #000;
+    padding: 0.2rem;
+    vertical-align: middle;
+    margin: 0.5rem;
+}
+
+.second-header img {
+    float: right;
+    width: 15rem;
+}
+
+.forth-header img {
+    float: left;
+    width: 16rem;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #2e2e2e;
+    text-align: justify;
+}
+
+.third-header p:nth-child(3) {
+    display: inline-block;
+    width: 50%;
+    margin-right: 5%;
+}
+
+blockquote{
+    display: inline-block;
+    width: 30%;
+    margin-right: 5%;
+    padding-left: 1.5em;
+    border-left: 4px solid #CCC;
+    margin-bottom: 1.5em;
+    font-style: italic;
+    color: rgb(221,221,221);
+}
+
+blockquote p:last-child{
+    padding-bottom: 0;
+}
+
+blockquote p.author{
+    text-align: right;
+}
+
+main {
+    display: inline-block;
+    width: 70%;
+    margin-right: 5%;
+}
+
+aside {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+
+aside nav ul {
+    padding: 0 0 0 4em;
+    margin: 0;
+}
+
+aside nav ul li {
+    padding: 0 0.5em;
+}
+
+aside nav a {
+    color: #090;
+    text-decoration: none;
+    padding: 0.1em;
+}
+
+aside nav a:hover {
+    background: #060;
+    color: #fff;
+}
