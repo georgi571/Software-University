@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+    display: flex;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.gallery {
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+.gallery ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.gallery li {
+    list-style: none outside;
+    border: 10px solid #000000;
+    flex: 0 0 220px;
+    padding: 0.5em;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow:
+        0 0 1em rgb(0, 0, 0, 0.3),
+        0 0 0.3em rgb(0, 0, 0, 0.3) inset;
+}
