@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 1em/1.2 "Georgia", serif;
+    padding: 2em;
+}
+
+.page {
+    max-width: 50em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+p, ul {
+    padding-bottom: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+.site-header {
+    flex: 0 0 100%;
+    border-bottom: 2px solid black;
+}
+
+.site-main {
+    flex: 1 0 60%;
+}
+
+.site-aside {
+    flex: 1 0 auto;
+}
+
+.aline-left {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.aline-right {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+img[class*="aline"] {
+    border: 3px solid black;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 0 0.5em 0 rgb(0, 0, 0, 0.3);
+}
+
+.third-header p:nth-child(3) {
+    width: 50%;
+    margin-right: 5%;
+}
+
+blockquote {
+    float: right;
+    opacity: 0.7;
+    font-style: italic;
+    max-width:45%;
+    padding-left: 2em;
+    border-left: 1px solid #CCCCCC;
+}
+
+blockquote .author {
+    text-align: right;
+}
+
+header p a {
+    text-decoration: none;
+    color: black;
+}
+
+.site-title {
+    font-size: 3em;
+    line-height: 1;
+    font-weight: bold;
+    padding: 0;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav li {
+    list-style: none outside;
+    padding: 0.5em;
+}
+
+header nav a {
+    display: block;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+    color: #090;
+}
+
+
+header nav a:hover {
+    background: #060;
+    color: #fff;
+}
+
+aside {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+aside nav ul {
+    padding: 0 0 0 4em;
+    margin: 0;
+}
+
+aside nav ul li {
+    padding: 0 0.5em;
+}
+
+aside nav a {
+    color: #090;
+    text-decoration: none;
+    padding: 0.1em;
+}
+
+aside nav a:hover {
+    background: #060;
+    color: #fff;
+}
