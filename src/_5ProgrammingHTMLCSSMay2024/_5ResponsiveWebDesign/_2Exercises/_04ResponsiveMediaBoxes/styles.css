@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 2em;
+    background-color: rgb(238, 238, 238);
+    font: 1em/1.2 "Georgia", serif;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    display: block;
+    width: 25em;
+    border-radius: 0.5em;
+    border: 1px solid #CCCCCC;
+}
+
+.card .content {
+    padding: 1em;
+}
+
+.card h3, .card p {
+    margin: 0;
+}
+
+.media {
+    position: relative;
+    overflow: hidden;
+}
+
+.media .after {
+    padding-top: 56.25%;
+}
+
+.media img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.content {
+    background-color: white;
+}
+
+.content button {
+    display: inline-block;
+    width: 120px;
+    border-radius: 4px;
+    background-color: rgb(0, 153, 0);
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 8px 16px;
+    margin-block: 20px;
+    left: 60%;
+    position: relative;
+}
+
+.content button a {
+    text-decoration: none;
+    color: #fff;
+}
