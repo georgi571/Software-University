@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1em;
+}
+
+.timeline {
+    border: 2px solid black;
+    padding: 2em;
+    position: relative;
+    overflow: hidden;
+}
+
+.timeline:before {
+    display: block;
+    content: '';
+    width: 0.5em;
+    height: 100%;
+    position: absolute;
+    top: 2em;
+    left: 3em;
+    background: #999999;
+}
+
+.timeline header {
+    border: 2px solid black;
+    padding: 0.5em 1em;
+    position: relative;
+    background: white;
+    margin-bottom: 1em;
+}
+
+.timeline .event {
+    margin-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 4em;
+    position: relative;
+}
+
+.timeline .event:before {
+    display: block;
+    content: '';
+    width: 2em;
+    height: 2em;
+    background: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 4px solid #999999;
+}
+
+.timeline .event h3 {
+    padding: 0.5em 0;
+}
+
+.timeline .event p {
+    padding-bottom: 1.5em;
+}
+
+@media (min-width: 600px) {
+    .timeline header {
+        display: flex;
+        justify-content: center;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .timeline:before {
+        left: calc(50% - 0.25em);
+    }
+
+    .timeline .event {
+        width: 50%;
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+
+    .timeline .event:nth-child(odd) {
+        margin-left: calc(50% - 1.25em);
+    }
+
+    .timeline .event:nth-child(even) {
+        padding-left: 0;
+        padding-right: 4em;
+        text-align: right;
+    }
+
+    .timeline .event:nth-child(even):before {
+        left: inherit;
+        right: -1.25em;
+        background: orange;
+    }
+}
