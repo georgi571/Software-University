@@ -1,0 +1,54 @@
+table {
+    background-color: white;
+    border-collapse: collapse;
+}
+
+table,
+table th,
+table td {
+    border: 1px solid grey;
+}
+
+table th,
+table td {
+    padding: 0.5em 1em;
+}
+
+table thead th,
+table thead td {
+    background: black;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: white;
+}
+
+tr:nth-child(odd) {
+    background: lightgrey;
+}
+
+@media (max-width: 767px) {
+    table, tbody, tr, td, th {
+        display: block;
+    }
+    thead {
+        display: none;
+    }
+
+    tbody tr {
+        border: 1px solid black;
+    }
+
+    tbody td {
+        display: flex;
+    }
+
+    tbody td:before {
+        display: inline-block;
+        content: attr(data-title);
+        font-weight: bold;
+        padding-right: 1em;
+        flex: 0 0 80px;
+    }
+}
