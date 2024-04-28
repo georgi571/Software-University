@@ -1,0 +1,419 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 2em 5em 2em;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 25px;
+    color: purple;
+}
+
+header p {
+    font-size: 9px;
+}
+
+.site header {
+    margin: 0 2em 0 2em;
+}
+
+.site main {
+    margin: 0 2em 0 2em;
+}
+
+.Need-a-website\? {
+    display: flex;
+    flex-direction: row;
+}
+
+.Need-a-website\? h2 {
+    font-size: 23px;
+    padding-bottom: 15px;
+}
+
+.Need-a-website\? p {
+    font-size: 11px;
+    padding-bottom: 15px;
+}
+
+.Need-a-website\? article {
+    flex: 1 1 70%;
+}
+
+.Need-a-website\? aside {
+    font-size: 100px;
+    flex: 1 1 25%;
+    padding: 25px;
+}
+
+.Our-Team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Our-Team h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.Our-Team .underline {
+    border-bottom: 3px solid black;
+    padding-bottom: 8px;
+}
+
+.Our-Team ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.Our-Team ul li {
+    width: calc(100% / 2);
+    text-align: center;
+}
+
+.Our-Team ul li img {
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+    align-items: center;
+}
+
+.Our-Team ul li .name {
+    padding-top: 20px;
+    text-align: center;
+    font: 16px bold;
+}
+
+.Our-Team ul li .position {
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.Our-Team ul li .title {
+    padding-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.Sign-up-to-our-Newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    background-color: purple;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Sign-up-to-our-Newsletter article {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.Sign-up-to-our-Newsletter form {
+    margin-right: 10px;
+}
+
+.Sign-up-to-our-Newsletter h2 .underline {
+    border-bottom: 3px solid black;
+    padding-bottom: 8px;
+}
+
+.Testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.Testimonials h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.Testimonials .underline {
+    border-bottom: 3px solid black;
+    padding-bottom: 8px;
+}
+
+.Testimonials h3 {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.Testimonials ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.Testimonials ul li {
+    width: calc(100% / 2);
+    text-align: center;
+}
+
+.Testimonials ul li img {
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+    align-items: center;
+}
+
+.Testimonials ul li .name {
+    padding-top: 20px;
+    text-align: center;
+    font: 16px bold;
+}
+
+.Testimonials ul li .position {
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.Testimonials ul li .title {
+    padding-top: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+}
+
+footer {
+    margin: 2em 2em 3em 2em;
+}
+
+footer section h2 {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+footer section p {
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+footer section nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+footer section nav ul li {
+    width: calc(100% / 2);
+}
+
+footer section nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer section h3 {
+    padding-top: 20px;
+}
+
+footer > section > ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+footer > section > ul > li > p {
+    text-decoration: none;
+    color: black;
+}
+
+footer > section > ul > li > p {
+    padding: 0;
+    display: flex;
+}
+
+footer > section > ul > li > p:nth-child(2) {
+    display: flex;
+    padding-left: 20px;
+}
+
+footer > section > ul > li > p:nth-child(3) {
+    display: flex;
+    padding-left: 20px;
+}
+
+footer i {
+    margin-right: 5px;
+}
+
+@media (min-width: 576px) {
+    .Need-a-website\? p {
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media (min-width: 1024px) {
+    header h1 {
+        font-size: 115px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    main {
+        padding: 80px;
+    }
+
+    main section {
+        padding: 40px;
+    }
+
+    .Need-a-website\? {
+        padding: 0 70px;
+    }
+
+    .Need-a-website\? h2 {
+        font-size: 60px;
+    }
+
+    .Need-a-website\? p {
+        font-size: 26px;
+    }
+
+    .Need-a-website\? aside {
+        font-size: 200px;
+    }
+
+    .Our-Team h2 {
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 80px;
+    }
+
+    .Our-Team ul li img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .Our-Team ul li {
+        width: calc(100% / 3);
+    }
+
+    .Our-Team ul li .name {
+        font: 30px bold;
+    }
+
+    .Our-Team ul li .position {
+        font-size: 28px;
+    }
+
+    .Our-Team ul li .title {
+        font-size: 24px;
+    }
+
+    .Testimonials h2 {
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 80px;
+    }
+
+    .Testimonials ul li img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .Testimonials ul li {
+        width: calc(100% / 3);
+    }
+
+    .Testimonials ul li .name {
+        font: 30px bold;
+    }
+
+    .Testimonials ul li .position {
+        font-size: 28px;
+    }
+
+    .Testimonials ul li .title {
+        font-size: 24px;
+    }
+
+    footer {
+        display: flex;
+        justify-items: center;
+        justify-content: space-between;
+        padding-left: 100px;
+    }
+
+    footer section:nth-child(1) {
+        flex: 1 1 33%;
+    }
+
+    footer section:nth-child(2) {
+        flex: 1 1 33%;
+    }
+
+    footer section:nth-child(3) {
+        flex: 1 1 33%;
+    }
+
+    footer > section > h2 {
+        font-size: 40px;
+    }
+
+    footer > section > h3 {
+        font-size: 30px;
+    }
+
+    footer > section > h4 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    footer section nav ul li {
+        width: calc(100% / 2);
+    }
+
+    footer section h3 {
+        padding-top: 0;
+    }
+
+    footer section p {
+        font-size: 25px;
+    }
+
+    footer section ul li {
+        padding-bottom: 5px;
+    }
+
+    footer section ul li a {
+        font-size: 20px;
+    }
+
+    footer > section > p {
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 1440px) {
+    header {
+        margin: 2em 5em 2em 5em;
+    }
+
+    main {
+        margin: 2em 7em 5em 7em;
+    }
+
+    .Our-Team ul li {
+        width: calc(100% / 3);
+    }
+}
+

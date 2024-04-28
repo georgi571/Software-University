@@ -1,0 +1,10 @@
+form {
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+@media (min-width: 1024px) {
+    form {
+        height: 20px;
+    }
+}
