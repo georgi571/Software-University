@@ -48,11 +48,14 @@ article {
     height: 420px;
     background-color: white;
     margin-right: 30px;
+    border-radius: 30px;
 }
 
 img {
     width: 340px;
     height: 200px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
 }
 
 p {
