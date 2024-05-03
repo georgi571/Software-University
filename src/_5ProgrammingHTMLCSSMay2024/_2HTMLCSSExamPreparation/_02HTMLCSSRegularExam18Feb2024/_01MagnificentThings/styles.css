@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Inter";
+}
+
+body, section, article {
+    font: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #85DCFF;
+}
+
+img {
+    width: 370px;
+    height: 490px;
+}
+
+h1 {
+    font-size: 44px;
+    padding-left: 40px;
+    padding-right: 200px;
+    flex-wrap: wrap;
+    line-height: 1.2;
+    padding-bottom: 30px;
+}
+
+p {
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+article {
+    margin-top: 30px;
+    padding-left: 40px;
+}
+
+button {
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.elements {
+    display: flex;
+    width: 1060px;
+    height: 610px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-button {
+    background-color: #42AA59;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.left-button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.right-button {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
