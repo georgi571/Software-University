@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "PT Serif";
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 440px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 2px dotted #008000;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
+
+table, tr, th, td{
+    border: 1px solid #008000;
+    border-collapse: collapse;
+}
+
+table {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+th:nth-child(1) {
+    width: 160px;
+}
+
+th:nth-child(2) {
+    width: 150px;
+}
+
+th:nth-child(3) {
+    width: 90px;
+}
+
+.screen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-repeat: repeat-y;
+    width: 900px;
+    height: 440px;
+    background-image: url("image/image1.png");
+    box-shadow: 1px 1px 10px 10px rgba(189, 189, 189, 0.75);
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.fruits {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.resources {
+    color: #008000;
+    padding-right: 5px;
+    font-weight: bolder;
+}
+
+.text {
+    margin-top: 40px;
+}
+
