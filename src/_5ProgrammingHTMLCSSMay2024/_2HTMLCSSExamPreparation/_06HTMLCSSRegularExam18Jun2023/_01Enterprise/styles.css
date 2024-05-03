@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Inter";
+}
+
+body, section, article {
+    font: inherit;
+}
+
+body {
+    display: flex;
+    background: #D9D9D9;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.elements {
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+    gap: 40px;
+}
+
+.first-section,
+.second-section,
+.third-section {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    box-shadow: 5px 5px 5px 5px rgba(201, 201, 201, 1);
+}
+
+div {
+    padding: 40px;
+}
+
+h1 {
+    color: #595959;
+    font-weight: bolder;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+h2 {
+    color: #000000;
+    font-weight: normal;
+    padding-bottom: 50px;
+    font-size: 32px;
+}
+
+.first-section > div > p,
+.second-section > div > p,
+.third-section > div > p {
+    padding-bottom: 40px;
+    font-size: 20px;
+    color: #595959;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid #000000;
+    padding-top: 20px;
+}
+
+.photos {
+    width: 540px;
+    height: 310px;
+}
+
+.author-picture {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.footer > p {
+    padding-left: 200px;
+}
