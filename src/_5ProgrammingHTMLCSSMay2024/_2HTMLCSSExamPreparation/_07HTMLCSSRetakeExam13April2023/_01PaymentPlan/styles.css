@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Inter";
+}
+
+body, section, article {
+    font: inherit;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vw;
+    padding: 2em;
+    background-size: cover;
+    background-image: url(image/background.jpg);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+i {
+    padding-right: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 20px 60px;
+    border-radius: 10px;
+}
+
+.elements {
+    display: flex;
+    flex-direction: row;
+}
+
+.side {
+    width: 520px;
+    height: 670px;
+    background-color: white;
+    margin: 30px;
+    padding: 40px;
+}
+
+.middle {
+    width: 530px;
+    height: 730px;
+    background-color: white;
+    padding: 40px;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    padding-bottom: 20px;
+}
+
+.for-value {
+    font-size: 24px;
+    padding-top: 50px;
+}
+
+.value {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.duration {
+    padding-bottom: 30px;
+    color: #A7A7A7;
+}
+
+.button-first {
+    margin-top: 110px;
+}
+
+.button-second {
+    margin-top: 130px;
+}
+
+.button-third {
+    margin-top: 30px;
+}
