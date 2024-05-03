@@ -1,0 +1,73 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", serif;
+}
+
+body, section, article {
+    font: inherit;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+h1 {
+    font-family: "Montserrat", serif;
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+article > img {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+}
+
+.screen {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 560px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.right > img {
+    width: 640px;
+    height: 540px;
+}
+
+.footer-section {
+    padding-top: 20px;
+}
