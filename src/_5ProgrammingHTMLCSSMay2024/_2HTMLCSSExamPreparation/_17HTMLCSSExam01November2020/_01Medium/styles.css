@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Helvetica";
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Georgia", serif;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Georgia", serif;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+span {
+    background-color: #CEFDE9;
+}
+
+button {
+    background-color: #03A87C;
+    width: 190px;
+    height: 40px;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    width: 946px;
+    height: 356px;
+    padding-left: 140px;
+}
+
+.bot-screen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bot-left {
+    margin-top: 120px;
+    margin-right: 140px;
+}
+
+.bot-right {
+    margin-right: 130px;
+}
