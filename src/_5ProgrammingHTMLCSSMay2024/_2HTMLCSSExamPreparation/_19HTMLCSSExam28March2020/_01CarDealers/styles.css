@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Lato", serif;
+}
+
+body, section, article {
+    font: inherit;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: #ACADAC;
+}
+
+p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #C6C6C6;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+article > img {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    height: 560px;
+    margin-top: -120px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.for-us {
+    font-size: 34px;
+    font-weight: normal;
+}
+
+.bot {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.right > img {
+    width: 640px;
+    height: 540px;
+}
+
+.footer-section {
+    padding-top: 20px;
+}
+
+.header-img {
+    width: 150px;
+    height: 60px;
+}
