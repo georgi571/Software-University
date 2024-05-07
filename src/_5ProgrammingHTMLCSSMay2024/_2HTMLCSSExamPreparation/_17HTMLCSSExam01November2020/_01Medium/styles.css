@@ -8,6 +8,10 @@ html {
     font: 14px/1.5 "Helvetica";
 }
 
+body, section, article {
+    font: inherit;
+}
+
 body {
     display: flex;
     min-height: 100vh;
