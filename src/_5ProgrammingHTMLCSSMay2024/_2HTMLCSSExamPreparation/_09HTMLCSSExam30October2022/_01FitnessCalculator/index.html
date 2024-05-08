@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Fitness Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <section class="screen">
+            <section class="picture">
+                <img src="image/calculator.png" alt="calculator">
+            </section>
+            <section class="form">
+                <form action="#" method="get">
+                    <h1>FITNESS CALCULATOR</h1>
+                    <ul>
+                        <li class="left">Standart units (US)</li>
+                        <li class="right">Metric units</li>
+                    </ul>
+                    <h4>Gender</h4>
+                    <article>
+                        <label for="gender"></label>
+                        <select name="gender" id="gender">
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <label for="age"></label>
+                        <input type="text" name="age" id="age" placeholder="Years...">
+                    </article>
+                    <h4>Weight</h4>
+                    <article>
+                        <label for="weight"></label>
+                        <input type="text" name="weight" id="weight" placeholder="Pounds...">
+                    </article>
+                    <h4>Height</h4>
+                    <article>
+                        <label for="height-in-feet"></label>
+                        <input type="text" name="height" id="height-in-feet" placeholder="Feet...">
+                        <label for="height-in-inches"></label>
+                        <input type="text" name="height" id="height-in-inches" placeholder="Inches...">
+                    </article>
+                    <article>
+                        <button>Calculate</button>
+                    </article>
+                </form>
+            </section>
+        </section>
+    </body>
+</html>

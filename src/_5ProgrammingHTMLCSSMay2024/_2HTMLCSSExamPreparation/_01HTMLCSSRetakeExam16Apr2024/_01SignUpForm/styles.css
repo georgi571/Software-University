@@ -16,6 +16,7 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+    background-color: #C1BDBA;
 }
 
 form {
@@ -38,7 +39,7 @@ li {
     text-align: center;
     font-size: 24px;
     padding-top: 20px;
-
+    cursor: pointer;
 }
 
 h1 {
@@ -58,6 +59,7 @@ button {
     color: white;
     font-size: 40px;
     border: none;
+    cursor: pointer;
 }
 
 input {
