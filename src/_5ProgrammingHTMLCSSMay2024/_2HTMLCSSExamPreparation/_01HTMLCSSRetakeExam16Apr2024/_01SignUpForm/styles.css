@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Kode Mono";
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #24333C;
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 30px 40px 0 40px;
+}
+
+li {
+    width: 330px;
+    height: 70px;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+    color: white;
+}
+
+button {
+    width: 660px;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    background-color: #1AB188;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    border: none;
+}
+
+input {
+    margin-left: 40px;
+    margin-bottom: 30px;
+    border: 1px solid #728384;
+    background-color: #24333C;
+}
+
+#first-name,
+#last-name {
+    width: 310px;
+    height: 40px;
+}
+
+#email,
+#password {
+    width: 650px;
+    height: 40px;
+}
+
+.left {
+    background-color: #1AB188;
+    color: white;
+}
+
+.right {
+    background-color: #435359;
+    color: #8EB3AE;
+}
+
+#last-name {
+    margin-left: 25px;
+}
+
+
+label {
+    position: absolute;
+    transform:translateY(6px);
+    margin-left: 60px;
+    font-size: 26px;
+    color: #80999E;
+}
+
+.req {
+    color: #1BA87D;
+}
+
+.right:hover {
+    background-color: #179A77;
+    color: white;
+}
