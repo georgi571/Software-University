@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Lato";
+}
+
+body, section, article {
+    font: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+    width: 860px;
+    height: 500px;
+}
+
+div {
+    margin-left: 740px;
+    width: 120px;
+    height: 30px;
+    background-color: #42ABF8;
+    text-align: center;
+    padding-top: 4px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    width: 860px;
+    height: 50px;
+    background-color: #F4F5F7;
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-bottom: 2px;
+}
+
+i {
+    padding-right: 50px;
+    color: #23BE5E;
+}
