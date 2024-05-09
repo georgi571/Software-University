@@ -1,0 +1,126 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Open Sans";
+}
+
+body, section, article {
+    font: inherit;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #E9E9E9;
+}
+
+h1 {
+    font-size: 16px;
+    margin: 30px 320px 0 0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 1;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 100;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+label {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #D5CCCE;
+}
+
+input {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    padding-bottom: 8px;
+    border: none;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.5);
+    padding-left: 20px;
+    background-color: #FAFAFA;
+    color: rgba(213, 204, 206, 0.1);
+}
+
+button {
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 45px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+a {
+    color: #9EA5BD;
+    font-weight: bold;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.screen {
+    display: flex;
+    width: 880px;
+    height: 540px;
+    box-shadow: 2px 3px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7) url("image/cover.jpg") center;
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 440px;
+    height: 540px;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    width: 440px;
+    height: 540px;
+}
+
+.footer {
+    margin-bottom: 30px;
+}
+
+#password,
+#repeat-password {
+    font-size: 28px;
+    padding-bottom: 0;
+}
