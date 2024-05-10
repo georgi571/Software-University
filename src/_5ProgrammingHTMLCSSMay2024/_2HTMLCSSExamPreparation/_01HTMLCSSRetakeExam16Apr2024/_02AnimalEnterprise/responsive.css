@@ -1,0 +1,112 @@
+@media (max-width: 600px) {
+    .navigation-links-nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation-links-text {
+        padding-bottom: 10px;
+    }
+
+    .navigation-links-text1 {
+        padding-bottom: 10px;
+    }
+
+    .navigation-links-text1:nth-child(2) {
+        padding-right: 15px;
+    }
+
+    .navigation-links-text1:nth-child(3) {
+        padding-right: 28px;
+    }
+
+    .navigation-links-text1:nth-child(4) {
+        padding-right: 38px;
+    }
+
+    .navigation-links-text1:nth-child(5) {
+        padding-right: 45px;
+    }
+
+    .blog-post-card3-blog-post-card {
+        flex: 0 1 auto;
+        flex-direction: column;
+    }
+
+    .blog-post-card3-image {
+        flex: 0 1 auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .home-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 160px;
+        padding-top: 30px;
+        font-weight: bold;
+    }
+
+    .home-container01 {
+        width: 100%;
+    }
+
+    .home-blog {
+        padding: 35px 25px 40px 35px;
+    }
+
+    .home-container04 {
+    }
+
+    .home-stats {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+
+    .home-stat {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 1 calc(50% - 50px);
+    }
+
+    .home-pricing {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-container06 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-container07 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-container08 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-container09 {
+        margin-bottom: 30px;
+        margin-right: 0;
+        width: 250%;
+        align-items: center;
+    }
+
+    .home-container10 {
+        margin-right: 0;
+        width: 250%;
+        align-items: center;
+    }
+}
