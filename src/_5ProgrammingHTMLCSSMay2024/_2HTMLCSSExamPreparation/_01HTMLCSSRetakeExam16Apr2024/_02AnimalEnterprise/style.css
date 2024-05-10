@@ -108,7 +108,7 @@ body {
   width: auto;
   height: auto;
   display: flex;
-  align-items: space-between;
+  justify-content: space-between;
   flex-direction: column;
 }
 .home-container02 {
