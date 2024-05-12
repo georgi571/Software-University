@@ -1,0 +1,156 @@
+@media (max-width: 600px) {
+    .row {
+        margin: 0;
+    }
+
+    .game-world-header {
+        flex: 0 1 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-12 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .text-center {
+        font-size: 18px;
+        margin-left: 10px;
+        padding: 0;
+    }
+
+    .img-fluid {
+        width: 100%;
+        height: auto;
+    }
+
+    .tm-header-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0 40px 0;
+    }
+
+    .col-12 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tm-site-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tm-site-title {
+        text-align: center;
+        font-size: 24px;
+        padding-top: 15px;
+    }
+
+    .tm-site-description {
+        font-size: 12px;
+    }
+
+    .tm-nav {
+        margin-top: 25px;
+    }
+
+    .tm-nav-ul {
+        font-size: 14px;
+    }
+
+    .tm-nav-li {
+        padding-right: 5px;
+    }
+
+    .tm-welcome-section {
+        padding: 0;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tm-welcome-section > .text-center {
+        padding-bottom: 20px;
+    }
+
+    .tm-section-title {
+        font-size: 32px;
+        text-align: center;
+        margin: 40px 40px 30px 40px;
+    }
+
+    .tm-gallery {
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        align-content: center;
+        margin-bottom: 20px;
+    }
+
+    .tm-gallery-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .tm-gallery-item {
+        padding: 0;
+    }
+
+    .tm-gallery-img {
+        margin-bottom: 10px;
+    }
+
+    .tm-gallery-title {
+        text-align: center;
+    }
+
+    .tm-gallery-description {
+        margin-bottom: 10px;
+    }
+
+    .tm-gallery-price {
+        margin-bottom: 40px;
+    }
+
+    .tm-paging-links {
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 20px 0;
+        padding: 0;
+    }
+
+    .tm-cta-section {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0;
+        padding: 0 20px 0 20px;
+    }
+
+    .tm-description-figure {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tm-description-box > .tm-gallery-title {
+        text-align: left;
+    }
+
+    .tm-mb-45 {
+        margin-bottom: 20px;
+    }
+
+    .tm-footer {
+        margin-bottom: 20px;
+    }
+}
