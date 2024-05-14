@@ -1,0 +1,144 @@
+@media (max-width: 600px) {
+    .section-heading-section-heading {
+        margin-bottom: 40px;
+    }
+
+    .section-heading-text1 {
+        font-size: 11px;
+    }
+
+    .category-card-category-card {
+        width: calc(50% - 10px);
+    }
+
+    .category-card-image {
+        width: 100%;
+        object-fit: inherit;
+    }
+
+    .blog-post-card-blog-post-card {
+        max-width: 100%;
+    }
+
+    .blog-post-card-container {
+        padding-top: 10px;
+    }
+
+    .blog-post-card-text {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .blog-post-card-text1 {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    .home-navbar {
+        position: absolute;
+        height: 30px;
+    }
+
+    .home-navbar1 {
+        display: none;
+    }
+
+    .home-main {
+        padding-bottom: 30px;
+    }
+
+    .home-cards-container {
+        display: flex;
+        flex-direction: row;
+        grid-gap: 0;
+        grid-row-gap: 10px;
+    }
+
+    .home-full-width-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-content {
+        margin: 0 0 10px 0;
+    }
+
+    .home-text29 {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .home-text30 {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .home-btn {
+        margin-bottom: 30px;
+    }
+
+    .home-image6 {
+        width: 100%;
+    }
+
+    .home-container08 {
+        width: 100%;
+    }
+
+    .home-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-footer1 {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 50px 0 0 20px;
+    }
+
+    .home-container10 {
+        font-size: 12px;
+    }
+
+    .home-container12 {
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+
+    .home-text33 {
+        font-size: 12px;
+    }
+
+    .home-text36 {
+        font-size: 12px;
+    }
+
+    .home-text37 {
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+
+    .home-links-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .section-container {
+        padding-top: 0;
+    }
+
+    .max-width-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Heading-2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+}
