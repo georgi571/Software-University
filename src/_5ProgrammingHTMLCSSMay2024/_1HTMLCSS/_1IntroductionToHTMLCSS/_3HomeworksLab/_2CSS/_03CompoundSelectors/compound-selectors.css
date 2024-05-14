@@ -1,0 +1,35 @@
+#special {
+    background-color: #FFC107;
+    padding: 10px;
+}
+
+#item1 {
+    color: #17A2B8;
+}
+
+#item3 {
+    font-style: italic;
+    font-weight: bold;
+    color: #DC3545;
+ }
+
+.highlighted {
+    color: #007BFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 60px;
+
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 3px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid green;
+    border-right: 2px solid green;
+}
