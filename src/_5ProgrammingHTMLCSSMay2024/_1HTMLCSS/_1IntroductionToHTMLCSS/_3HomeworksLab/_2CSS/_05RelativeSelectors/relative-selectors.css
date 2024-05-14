@@ -1,0 +1,40 @@
+body {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.highlighted {
+    background-color: #F08080;
+    color: #325050;
+}
+
+ul {
+    font-weight: bold;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    margin-left: -25px;
+    text-decoration: none;
+    color: #000080;
+}
+
+li > ul > li:nth-child(1) {
+    margin-top: 10px;
+}
+
+ul > li:nth-child(2) {
+    color: #FF6347;
+}
+
+li > ul > li:nth-child(3) a {
+    color: #008000;
+}
+
+.bottom {
+    color: #597CE5;
+}
