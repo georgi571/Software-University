@@ -1,0 +1,20 @@
+header,
+section,
+footer {
+    border: 1px solid darkgray;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: -30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
