@@ -1,0 +1,9 @@
+.done {
+    text-decoration: line-through;
+}
+
+input[type=button]:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
