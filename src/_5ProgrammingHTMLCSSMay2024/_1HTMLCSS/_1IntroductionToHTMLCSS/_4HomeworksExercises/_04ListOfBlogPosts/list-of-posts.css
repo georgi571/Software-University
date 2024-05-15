@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+}
+
+h2, p {
+    padding-bottom: 20px;
+}
+
+blockquote {
+    opacity: 0.5;
+}
+
+span {
+    font-weight: bold;
+}
