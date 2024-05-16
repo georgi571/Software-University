@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body {
+     padding: 20px;
+ }
+
+ h1, h2, ul, .first {
+     padding-bottom: 20px;
+ }
+
+ ul {
+     padding-left: 40px;
+ }
