@@ -5,7 +5,6 @@ body {
   font-style: normal;
   text-decoration: none;
   text-transform: none;
-  letter-spacing: 0.02;
   line-height: 1.55;
   color: #000000;
   background-color: #ffffff;
@@ -186,7 +185,7 @@ body {
   align-self: auto;
   font-style: normal;
   text-align: center;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 175%;
   font-stretch: normal;
   margin-bottom: 48px;
@@ -227,7 +226,7 @@ body {
   align-self: auto;
   font-style: normal;
   text-align: left;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 20px;
   font-stretch: normal;
   text-decoration: none;
@@ -240,7 +239,7 @@ body {
   align-self: auto;
   font-style: normal;
   text-align: center;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 24px;
   font-stretch: normal;
   text-decoration: none;
@@ -266,7 +265,7 @@ body {
   align-self: auto;
   font-style: normal;
   text-align: left;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 14px;
   font-stretch: normal;
   text-decoration: none;
@@ -421,7 +420,6 @@ body {
 .Content {
   font-size: 16px;
   font-weight: 400;
-  letter-spacing: 0.02;
   text-transform: none;
   text-decoration: none;
 }
