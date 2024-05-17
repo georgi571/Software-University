@@ -1,0 +1,97 @@
+@media (max-width: 600px) {
+    .site-navigation {
+        display: none;
+    }
+
+    .site-main {
+        margin: 0;
+    }
+
+    .entry-header {
+        background-position: center;
+        background-size: auto;
+    }
+
+    .button-primary {
+        width: 25%;
+    }
+
+    .site-logos-container {
+        min-width: 100%;
+    }
+
+    .entry-content {
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .site-information {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .site-information-text {
+        text-align: center;
+    }
+
+    .site-information-image {
+        display: none;
+    }
+
+    .site-information button {
+       width: 20%;
+    }
+
+    .entry-description {
+        width: 100%;
+        padding: 0 70px 20px 70px;
+    }
+
+    .site-form {
+        margin-top: 0;
+    }
+
+    .site-form form > p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .site-form label,
+    .site-form input {
+        width: 100%;
+    }
+
+    .site-form button {
+        display: unset;
+        margin-left: 0;
+    }
+
+    .site-blog-container {
+        margin: 0;
+    }
+
+    .site-form-container h2{
+        font-size: 0.6rem;
+    }
+
+    .site-blog-container h2 {
+        padding: 0 30px;
+    }
+
+    .site-posts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-post {
+        width: 70%;
+    }
+
+    .site-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
