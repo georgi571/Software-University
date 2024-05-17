@@ -1,22 +1,4 @@
 @media (max-width: 600px) {
-    * {
-
-    }
-
-    html {
-
-    }
-
-    body {
-    }
-
-    main {
-    }
-
-    header {
-    }
-
-
     .div-header ul {
         display: none;
     }
@@ -33,46 +15,10 @@
         display: none;
     }
 
-    .div-logo > img {
-
-    }
-
-    ul {
-
-    }
-
-    ul li {
-
-    }
-
-    li a {
-
-    }
-
-    i.fa {
-
-    }
-
-    .logo-center {
-
-    }
-
-    .logo-center h3 {
-
-    }
-
-    .logo-center h1 {
-
-    }
-
     button.button-header {
         margin: 50px 0 80px 0;
         padding: 5px 10px;
         font-size: 10px;
-    }
-
-    .button-header:hover {
-
     }
 
     .options {
@@ -96,10 +42,6 @@
         display: none;
     }
 
-    main h2 {
-
-    }
-
     .gallery {
         display: flex;
         flex-direction: column;
@@ -110,20 +52,8 @@
         display: none;
     }
 
-    .gallery article > img {
-
-    }
-
-    .gallery article p {
-
-    }
-
     .blog-title {
         padding: 20px 0 0 50px;
-    }
-
-    .blog {
-
     }
 
     .blog-title h4 {
@@ -136,10 +66,6 @@
 
     .blog-title a {
         display: none;
-    }
-
-    .blog article {
-
     }
 
     .blog article img {
@@ -160,24 +86,12 @@
         margin: 0 0 10px 20px;
     }
 
-    #about-blog button {
-
-    }
-
-    .magazine {
-
-    }
-
     .magazine-title {
         padding: 20px 0 0 50px;;
     }
 
     .magazine-title h4 {
         font-size: 16px;
-    }
-
-    .magazine-title h4 span {
-
     }
 
     .magazine-title a {
@@ -189,13 +103,6 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
-    }
-
-    #magazine-img {
-    }
-
-    .magazine-title {
-
     }
 
     .magazine-info img {
@@ -219,9 +126,6 @@
         font-size: 16px;
         text-align: center;
         padding: 0 40px;
-    }
-
-    .magazine-info button {
     }
 
     .magazine-info {
