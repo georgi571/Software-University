@@ -5,11 +5,12 @@
 }
 
 html {
-    font: 16px/1.5 "Helvetica", sans-serif;
+    font: 16px/1.5 "Lato", sans-serif;
 }
 
 body {
     margin: 1em;
+    font-family: inherit;
 }
 
 p, ul, ol {
@@ -24,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
     margin-top: 1em;
     margin-bottom: 0.5em;
-    font-family: "Georgia", serif;
+    font-family: inherit;
 }
 
 h6 {
