@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px solid green;
+    padding-bottom: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px solid black;
+    padding: 30px 60px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    justify-content: space-evenly;
+    border: 3px solid blue;
+    padding: 30px 60px;
+}
+
+p {
+    font-weight: bold;
+}
