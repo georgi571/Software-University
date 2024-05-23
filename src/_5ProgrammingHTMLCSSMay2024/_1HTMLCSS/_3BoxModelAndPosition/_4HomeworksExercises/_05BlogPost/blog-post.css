@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Lato", sans-serif;
+}
+
+body {
+    padding: 2em;
+}
+
+h1 {
+    font-size: 2.6em;
+    padding-bottom: 0.2em;
+}
+
+h3 {
+    font-size: 1.8em;
+    padding-bottom: 0.5em;
+}
+
+section {
+    border: 0.1em solid lightgray;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em 2em 0 2em;
+}
+
+article {
+    padding-bottom: 3em;
+}
+
+p,
+div{
+    padding-bottom: 1em;
+}
+
+.under-title {
+    font-size: 1.1em;
+    padding-right: 3em;
+    font-weight: 600;
+}
