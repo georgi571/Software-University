@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Lato", sans-serif;
+}
+
+body {
+    margin: 2em;
+}
+
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+details {
+    border: 1px solid lightgray;
+    padding: 1em;
+}
+
+p {
+    padding: 1em 1em 0.5em 0;
+}
+
+summary {
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+summary::before {
+    display: inline-block;
+    content: '>';
+    margin-right: 0.5em;
+}
+
+details[open] summary::before {
+    content: '^';
+    transform: rotate(180deg);
+    margin-right: 0.5em;
+}
+
