@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Lato", sans-serif;
+}
+
+section {
+    background-image: url("images/image1.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-size: 1.8em;
+}
+
+h1 {
+    padding-bottom: 0.2em;
+}
+
+p {
+    margin-bottom: 0.2em;
+}
