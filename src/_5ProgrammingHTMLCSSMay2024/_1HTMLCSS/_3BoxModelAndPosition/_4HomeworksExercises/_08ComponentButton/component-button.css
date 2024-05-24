@@ -1,0 +1,66 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+}
+
+h1 {
+    margin: 0 0 1em 0;
+}
+
+ul {
+    margin-bottom: 2em;
+}
+
+li {
+    display: inline-block;
+    width: 120px;
+    margin-right: 1em;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 1em;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+button {
+    display: block;
+    padding: 1em;
+    margin-right: 22em;
+    border-radius: 0.5em;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.first {
+    background-color: #D8D8D8;
+}
+
+.second {
+    background-color: #FF9B00;
+}
+
+.third {
+    background-color: #F9F9CC;
+}
+
+.forth {
+    background-color: #FFFFFF;
+}
+
+.fifth {
+    background-color: #D8D8D8;
+}
+
