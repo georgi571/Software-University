@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2em;
+}
+
+nav {
+    background-color: #EEEEEE;
+    padding: 0.5em;
+    border: 1px solid lightgray;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+    position: relative;
+}
+
+a {
+    border: 1px solid lightgray;
+    background-color: white;
+    padding: 0.5em 1em;
+    display: block;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    text-decoration: none;
+    color: orange;
+}
+
+li:hover > a,
+a:hover {
+    background-color: orange;
+    color: white;
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+ul ul ul {
+    top: 0;
+    left: 100%;
+}
+
+li:hover > ul {
+    display: block;
+}
+
+li ul li {
+    width: 12rem;
+}
