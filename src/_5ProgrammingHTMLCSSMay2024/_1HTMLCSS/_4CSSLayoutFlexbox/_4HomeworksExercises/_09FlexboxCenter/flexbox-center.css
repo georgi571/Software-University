@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+}
+
+section {
+    max-width: 650px;
+    background-color: white;
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+h1,
+ul,
+p {
+    margin-bottom: 1em;
+}
+
+ul {
+    padding-left: 2em;
+}
