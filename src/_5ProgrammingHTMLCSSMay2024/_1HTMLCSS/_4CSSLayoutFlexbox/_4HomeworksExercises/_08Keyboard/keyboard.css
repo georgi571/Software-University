@@ -19,6 +19,8 @@ section {
     background-color: #DDDDDD;
     border-radius: 0.5em;
     padding: 1em;
+    border: 1px solid lightgray;
+    box-shadow: 0 0.3em 1em 0 rgb(0, 0, 0);
 }
 
 ul {
