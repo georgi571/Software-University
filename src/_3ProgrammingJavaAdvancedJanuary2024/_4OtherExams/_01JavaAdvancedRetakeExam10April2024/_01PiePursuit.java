@@ -1,4 +1,4 @@
-package _3ProgrammingJavaAdvancedJanuary2024._4OtherExams._JavaAdvancedRetakeExam10April2024;
+package _3ProgrammingJavaAdvancedJanuary2024._4OtherExams._01JavaAdvancedRetakeExam10April2024;
 
 import java.util.*;
 import java.util.stream.Collectors;
