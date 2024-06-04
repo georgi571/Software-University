@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="media-types.css">
+    </head>
+    <body>
+        <h1>Media Types</h1>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types">https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types</a>
+        </p>
+        <p>Media types describe the general category of a device. Except when using the not or only logical operators,
+            the media type is optional and the all type is implied.</p>
+        <section>
+            <h2>all</h2>
+            <p>Suitable for all devices</p>
+            <p>@media all {</p>
+            <article>
+                <p>* {</p>
+                <article>
+                    <p>padding: 0;</p>
+                    <p>margin: 0;</p>
+                    <p>box-sizing: border-box;</p>
+                </article>
+                <p>}</p>
+            </article>
+            <article>
+                <p>body {</p>
+                <article>
+                    <p>padding: 2em;</p>
+                    <p>font: 14px/1.5 Lato, sans-serif;</p>
+                </article>
+                <p>}</p>
+            </article>
+            <article>
+                <p>p {</p>
+                <article>
+                    <p>padding-bottom: 1.5em;</p>
+                </article>
+                <p>}</p>
+            </article>
+            <p>}</p>
+        </section>
+        <section>
+            <h2>print</h2>
+            <p>Intended for paged material and documents viewed on a screen in print preview mode</p>
+            <p>@media print {</p>
+            <article>
+                <p>body::before {</p>
+                <article>
+                    <p>display: block;</p>
+                    <p>content: 'The page is using a print preview or it was printed';</p>
+                </article>
+                <p>}</p>
+            </article>
+            <p>}</p>
+        </section>
+        <section>
+            <h2>screen</h2>
+            <p>Intended primarily for screens</p>
+            <p>@media screen {</p>
+            <article>
+                <p>body::before {</p>
+                <article>
+                    <p>display: block;</p>
+                    <p>content: 'The page is being shown on a screen';</p>
+                </article>
+                <p>}</p>
+            </article>
+            <p>}</p>
+        </section>
+    </body>
+</html>
