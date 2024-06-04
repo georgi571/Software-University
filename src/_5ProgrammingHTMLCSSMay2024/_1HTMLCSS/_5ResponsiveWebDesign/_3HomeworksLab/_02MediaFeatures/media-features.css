@@ -68,3 +68,54 @@
         margin-bottom: 2em;
     }
 }
+
+@media (hover: none) {
+    body::before {
+        display: block;
+        content: "This device doesn't support hover";
+        background-color: #336699;
+        padding: 1em;
+        color: white;
+        border-radius: 0.5em;
+        margin-bottom: 2em;
+    }
+}
+
+
+@media (orientation: landscape) {
+    body::before {
+        display: block;
+        content: 'The device is in landscape orientation';
+        background-color: #336699;
+        padding: 1em;
+        color: white;
+        border-radius: 0.5em;
+        margin-bottom: 2em;
+    }
+}
+
+@media (width: 600px) {
+    body::before {
+        display: block;
+        content: 'The viewport width is 600px';
+        background-color: #336699;
+        padding: 1em;
+        color: white;
+        border-radius: 0.5em;
+        margin-bottom: 2em;
+    }
+}
+
+@media (height: 800px) {
+    body::before {
+        display: block;
+        content: 'The viewport height is 800px';
+        background-color: #336699;
+        padding: 1em;
+        color: white;
+        border-radius: 0.5em;
+        margin-bottom: 2em;
+    }
+}
+
+

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Media Features</title>
+        <link rel="stylesheet" href="media-features.css">
+    </head>
+    <body>
+        <h1>Media Features</h1>
+        <p class="italic">Not complete list</p>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_features">https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_features"</a>
+        <p>
+        <section>
+            <h2>hover</h2>
+            <p>Does the primary input mechanism allow the user to hover over elements? Added in Media Queries Level
+                4.</p>
+            <p>@media (hover: none) {</p>
+            <article>
+                <p>body::before {</p>
+                <article>
+                    <p>display: block;</p>
+                    <p>content: 'This device doesn't support hover';</p>
+                </article>
+                <p>}</p>
+            </article>
+            <p>}</p>
+        </section>
+        <section>
+            <h2>orientation</h2>
+            <p>Orientation of the viewport.</p>
+            <p>@media (orientation: landscape) {</p>
+            <article>
+                <p>body::before {</p>
+                <article>
+                    <p>display: block;</p>
+                    <p>content: 'The device is in landscape orientation';</p>
+                </article>
+                <p>}</p>
+            </article>
+            <p>}</p>
+        </section>
+        <section>
+            <h2>width</h2>
+            <p>Width of the viewport including width of scrollbar.</p>
+            <p>@media (width: 600px) {</p>
+            <article>
+                <p>body::before {</p>
+                <article>
+                    <p>display: block;</p>
+                    <p>content: 'The viewport width is 600px';</p>
+                </article>
+                <p>}</p>
+            </article>
+            <p>}</p>
+        </section>
+        <section>
+            <h2>height</h2>
+            <p>Height of the viewport.</p>
+            <p>@media (height: 800px) {</p>
+            <article>
+                <p>body::before {</p>
+                <article>
+                    <p>display: block;</p>
+                    <p>content: 'The viewport height is 800px';</p>
+                </article>
+                <p>}</p>
+            </article>
+            <p>}</p>
+        </section>
+    </body>
+</html>
