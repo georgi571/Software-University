@@ -1,0 +1,107 @@
+@media all {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 2em;
+        font: 14px/1.5 Lato, sans-serif;
+    }
+
+    p {
+        padding-bottom: 1.5em;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        margin-bottom: 32em;
+    }
+
+    section > p:nth-child(3) {
+        padding-bottom: 0;
+    }
+
+    article {
+        padding-left: 2em;
+    }
+
+    article > article > p:last-child {
+        padding-bottom: 0;
+    }
+
+    section > p:last-child {
+        margin-top: -1em;
+    }
+
+    article > p:last-child {
+        padding-bottom: 1em;
+    }
+
+    article > p {
+        padding-bottom: 0;
+    }
+}
+
+@media print {
+    body::before {
+        display: block;
+        content: 'The page is using a print preview or it was printed';
+        background-color: #336699;
+        padding: 1em;
+        color: white;
+        border-radius: 0.5em;
+        margin-bottom: 2em;
+    }
+}
+
+@media screen {
+    body::before {
+        display: block;
+        content: 'The page is being shown on a screen';
+        background-color: #336699;
+        padding: 1em;
+        color: white;
+        border-radius: 0.5em;
+        margin-bottom: 2em;
+    }
+}
+
+@media (min-width: 800px) {
+    body::before {
+        display: block;
+        content: 'The viewport width is larger than 800px';
+        background-color: #336699;
+        padding: 1em;
+        color: white;
+        border-radius: 0.5em;
+        margin-bottom: 2em;
+    }
+}
+
+@media (max-width: 800px) {
+    body::before {
+        display: block;
+        content: 'The viewport width is smaller than 800px';
+        background-color: #336699;
+        padding: 1em;
+        color: white;
+        border-radius: 0.5em;
+        margin-bottom: 2em;
+    }
+}
+
+@media (width: 800px) {
+    body::before {
+        display: block;
+        content: 'The viewport width is exactly 800px';
+        background-color: #336699;
+        padding: 1em;
+        color: white;
+        border-radius: 0.5em;
+        margin-bottom: 2em;
+    }
+}
+
