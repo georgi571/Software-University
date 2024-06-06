@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+.content {
+    background-color: #FFFFFF;
+    margin: 2em auto;
+    max-width: 80%;
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+}
+
+.top,
+.bot,
+article{
+    border: 1px solid black;
+    padding: 2em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+}
+
+article {
+    border: 1px solid black;
+}
+
+@media (min-width: 800px) {
+    .middle {
+        display: flex;
+    }
+
+    .main {
+        flex: 1 1 70%;
+    }
+
+    .side {
+        flex: 1 1 30%;
+    }
+}
