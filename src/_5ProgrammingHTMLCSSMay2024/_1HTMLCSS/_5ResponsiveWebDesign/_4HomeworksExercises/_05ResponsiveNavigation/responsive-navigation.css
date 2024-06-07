@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EEEEEE;
+    padding: 2em;
+}
+
+div {
+    display: flex;
+    background: #FFFFFF;
+    max-width: 100%;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+    padding: 2em;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: block;
+    position: relative;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #333333;
+    background: #EEEEEE;
+    padding: 1em 1.5em;
+}
+
+#nav-toggle {
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+@media (hover:none) {
+
+    label[for="nav-toggle"] {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: #EEEEEE;
+        padding: 1em 1.5em;
+    }
+
+    nav,
+    label[for="nav-toggle"] .close {
+        display: none;
+    }
+
+    #nav-toggle:checked ~ label[for="nav-toggle"] .close {
+        display: block;
+    }
+
+    #nav-toggle:checked ~ label[for="nav-toggle"] .open {
+        display: none;
+    }
+
+    #nav-toggle:checked ~ nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FFFFFF;
+    }
+
+    #nav-toggle:checked ~ nav ul {
+        padding-left: 2em;
+    }
+
+    #nav-toggle:checked ~ nav a {
+        border-bottom: 2px solid #FFFFFF;
+    }
+}
+
+@media (hover:hover) {
+
+    label[for="nav-toggle"] {
+        display: none;
+    }
+
+    nav > ul {
+        display: flex;
+        gap: 1em
+    }
+
+    nav > ul > li > a {
+        border-radius: 0.5em;
+    }
+
+    nav ul ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 10rem;
+    }
+
+    nav ul ul ul {
+        top: 0;
+        left: 100%;
+    }
+
+    nav li:hover > a,
+    nav a:hover {
+        background: darkorange;
+        color: #FFFFFF;
+    }
+
+    nav li:hover > ul {
+        display: block;
+        box-shadow: 0 0 1em 0.1em rgb(0, 0, 0, 0.1);
+    }
+}
