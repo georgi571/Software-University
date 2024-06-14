@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "PT Sans", sans-serif;
+}
+
+body {
+    background-color: #60ACC1;
+    max-width: 1920px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 760px;
+}
+
+header h1 {
+    font-size: 4.3em;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+header img {
+    height: 150px;
+    width: 150px;
+    margin-top: 2em;
+}
+
+header p {
+    font-size: 1.7em;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2em;
+    margin-top: 5em;
+}
+
+a {
+    font-size: 1.4em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+button {
+    font-size: 1.4em;
+    padding: 0.7em;
+    border-radius: 0.5em;
+    border: none;
+    font-weight: bold;
+    color: #686666;
+    margin-top: 2em;
+}
+
+main .inside-section article {
+    display: flex;
+    flex-direction: row;
+    height: 370px;
+    width: 690px;
+    background-color: #60ACC1;
+    box-shadow: 0 0 3em 0 rgb(0,0,0, 0.4);
+    margin-bottom: 3em;
+}
+
+.inside-section > .first-left > .left {
+    height: 370px;
+    width: 360px;
+    background-image: url("images/home-set.jpg");
+    background-size: 550px 370px;
+}
+
+.inside-section > .second-left > .left {
+    height: 370px;
+    width: 360px;
+    background-image: url("images/beach-set.jpg");
+    background-size: 530px 370px;
+}
+
+main .inside-section article h3 {
+    font-size: 1.4em;
+    margin: 4em 2.6em 1em;
+}
+
+main .inside-section article p {
+    font-size: 1.3em;
+    text-align: start;
+    margin: 0 2.6em;
+}
+
+main .illustration article {
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    width: 470px;
+    margin: 3em 0;
+    align-items: center;
+}
+
+main .illustration article img {
+    width: 170px;
+    height: 170px;
+}
+
+article img {
+    height: 370px;
+    width: 370px;
+}
+
+article div {
+    height: 370px;
+    width: 310px;
+    background-color: white;
+}
+
+.home-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.catalog {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 3em
+}
+
+.catalog > h2 {
+    font-size: 2em;
+}
+
+.catalog > p {
+    font-size: 1.3em;
+}
+
+.inside-section {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-evenly;
+    color: #69686B;
+}
+
+.illustration h3 {
+    font-size: 1.7em;
+}
+
+.illustration p {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.inside-second-section {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.inside-second-section img {
+    width: 440px;
+    height: 320px;
+    box-shadow: 0 0 3em 0 rgb(0,0,0, 0.4);
+    margin-bottom: 3em;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    justify-content: space-evenly;
+    color: #69686B;
+    padding: 0 30em;
+}
+
+.about-us h2 {
+    font-size: 1.7em;
+    margin-top: 2em;
+}
+
+.about-us p {
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.fancy {
+    font-style: italic;
+}
+
+footer {
+    padding: 0.5em;
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+    background-color: black;
+}
+
