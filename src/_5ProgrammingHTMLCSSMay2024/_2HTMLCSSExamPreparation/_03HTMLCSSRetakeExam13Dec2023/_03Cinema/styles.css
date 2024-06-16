@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Ubunto", sans-serif;
+}
+
+body, header, main, section, article, ul, li, a, h1, p, button {
+    font: inherit;
+}
+
+body {
+    background: #353434;
+    width: 1920px;
+}
+
+header .background{
+    background-image: url("images/background.jpg");
+    background-size: 1920px 760px;
+    background-position: center center;
+    height: 620px;
+}
+
+header section {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    justify-content: space-between;
+}
+
+header article {
+    display: flex;
+    flex-direction: row;
+}
+
+header h1 {
+    font-size: 3.43em;
+    margin-top: 0.2em;
+    margin-left: 0.5em;
+}
+
+header p {
+    color: #808080;
+    margin-left: 2em;
+    margin-top: 3em;
+}
+
+header h1:after {
+    border-right: 1px solid #808080;
+    content: "";
+    margin-left: 0.5em;
+    opacity: 0.5;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 3em;
+    margin-right: 5em;
+    padding-bottom: 3em;
+}
+
+header ul {
+    gap: 0.1em;
+}
+
+header ul li a {
+    text-decoration: none;
+    background: #ECECEC;
+    color: #696969;
+    padding: 1.5em;
+    font-weight: bold;
+}
+
+header .homepage {
+    background: #56DBB1;
+    color: black;
+}
+
+main .first {
+    background: #56DBB1;
+    padding: 3em 10em;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+main .second {
+    color: white;
+}
+
+main .second i {
+    padding: 0.5em;
+    background: #56DBB1;
+    font-size: 3em;
+}
+
+main .second ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 10em;
+    text-align: center;
+}
+
+main .second ul li {
+    margin-right: 2em;
+}
+
+main .second h2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 2px solid white;
+}
+
+main .second p {
+    color: #5B5956;
+    font-size: 1.3em;
+}
+
+main .third {
+    background: white;
+    text-align: center;
+    padding: 5em;
+}
+
+main .third h2 {
+    font-size: 2.7em;
+    color: #5F5F5F;
+}
+
+main .third p {
+    color: #C3BCB8;
+    font-size: 1.3em;
+}
+
+main .third button {
+    padding: 1em 2em;
+    background: #974D1B;
+    color: white;
+    font-weight: bold;
+    margin-top: 2em;
+    border: none;
+}
+
+main .forth {
+    color: white;
+}
+
+main .forth ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 10em;
+    text-align: center;
+}
+
+main .forth ul li {
+    margin-right: 2em;
+}
+
+main .forth h2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+main .forth p {
+    color: #5B5956;
+    font-size: 1.3em;
+}
+
+footer {
+    background: #1B9772;
+    padding: 3em;
+    color: #56DBB1;
+    text-align: center;
+}
+
+footer span {
+    color: white;
+}
