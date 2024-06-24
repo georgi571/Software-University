@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 18px/1.5 'Lato', sans-serif;
+}
+
+
+body, textarea, th, td, tr, ul, li, a, article, section, div {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: 1920px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background: #000000;
+    justify-content: space-between;
+    padding: 0 1em;
+    text-align: center;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    list-style: none;
+    gap: 2em;
+    font-weight: bold;
+}
+
+header ul li::marker {
+    color: white;
+}
+
+header ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header img {
+    width: 50px;
+    height: 40px;
+    padding: 2px 0;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/music.png");
+    background-position: left 100px;
+    background-repeat: no-repeat;
+    background-size: 830px 600px;
+}
+
+.top h1 {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2em 0;
+    font-size: 1.8em;
+    background: #1DB954;
+    background-size: 1920px 380px;
+    height: 380px;
+    position: relative;
+    z-index: -1;
+}
+
+.top div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.top div article {
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.6);
+    border-radius: 1em;
+    margin-top: -11em;
+    justify-content: space-between;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+
+.top div article h3 {
+    text-align: center;
+    padding-top: 1.5em;
+    font-size: 1.8em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    opacity: 0.9;
+    line-height: 0.5;
+}
+
+.top div .left h3 {
+    padding-bottom: 2em;
+}
+
+.top div .left p {
+    padding-top: -2em;
+}
+
+.top div article ul {
+    padding-left: 3em;
+    list-style: circle;
+    font-size: 1.2em;
+    padding-right: 1em;
+    opacity: 0.7;
+}
+
+.top div article div {
+    background: black;
+    color: white;
+    height: 70px;
+    font-size: 1.4em;
+    align-items: center;
+}
+
+.top div article button {
+    background: #1DB954;
+    padding: 0.6em 2em;
+    color: white;
+    font-size: 1.1em;
+    border-radius: 1em;
+    font-weight: bold;
+    border: none;
+    width: 280px;
+    margin: 1.5em auto;
+}
+
+.top > div > .left > div > p:first-child:after {
+    content: '';
+    width: 1px;
+    height: 40px;
+    background: white;
+    position: absolute;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    margin: 8em 0 0 5em;
+    font-size: 1.1em;
+}
+
+.middle article h3 {
+    font-size: 1.3em;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+.middle article p {
+    font-size: 1.07em;
+    padding-bottom: 1em;
+    padding-right: 4em;
+}
+
+.middle img {
+    width: 400px;
+    height: 300px;
+    margin-right: 13em;
+}
+
+.bot {
+    text-align: center;
+}
+
+.bot h2 {
+    font-size: 4em;
+    margin-top: 1em;
+}
+
+.bot p {
+    font-size: 1.33em;
+    margin-top: 1em;
+}
+
+table {
+    width: 1300px;
+    margin: 2em auto 6em;
+    border-collapse: collapse;
+    font-weight: bold;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+table tr:nth-child(odd) {
+    background: #CCCBCB;
+}
+
+table tr:nth-child(even) {
+    background: #81D8A0;
+}
+
+table td {
+    text-align: center;
+    padding: 1em;
+}
+
+table td:first-child {
+    text-align: left;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+}
