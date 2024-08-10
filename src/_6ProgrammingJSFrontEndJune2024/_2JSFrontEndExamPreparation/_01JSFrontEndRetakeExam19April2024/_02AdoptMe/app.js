@@ -9,7 +9,7 @@ function solve() {
     const adoptedPetsElement = document.querySelector('#adopted-list')
     buttonElement.addEventListener('click', (event) => {
         event.preventDefault();
-        if (typeElement.value !== '' && ageElement.value !== ' ' && genderElement.value !== ' ') {
+        if (typeElement.value !== '' && ageElement.value !== '' && genderElement.value !== '') {
             const liElement = document.createElement('li');
             const articleElement = document.createElement('article');
             const p1Element = document.createElement('p');
