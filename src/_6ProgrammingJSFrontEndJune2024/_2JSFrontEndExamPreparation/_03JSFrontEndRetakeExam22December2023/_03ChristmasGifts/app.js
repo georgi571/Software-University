@@ -18,7 +18,6 @@ function attachEvents() {
     async function loadGifts() {
         divGiftListElements.innerHTML = '';
         const response = await fetch(BASE_URL);
-        console.log(response)
         const result = await response.json();
         const gifts = Object.values(result);
         const giftElements = gifts.map(gift => createGiftElement(gift.gift, gift.for, gift.price, gift._id));
