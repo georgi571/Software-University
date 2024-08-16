@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    padding: 3em 2em;
+    font: 14px/1.5 "PT Sans", sans-serif;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.card {
+    flex: 1 0 380px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #333;
+    padding: 1.25rem;
+    position: relative;
+    background-color: #F8F8F8;
+}
+
+.card, .card .card-item-price {
+    transition: .15s ease-in;
+    box-shadow: 0 0 0 1px rgb(0, 0, 0, 0.05), 0 20px 50px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0.4em;
+}
+
+.card:hover .card-item-price, .card:hover, .card:focus-within {
+    box-shadow: 0 0 0 2px #16C79A, 0 10px 60px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.03);
+    background-color: #FFF;
+}
+
+.card:hover .card-image {
+    margin: -1.28em -1.28em 0 !important;
+    border-radius: calc(0.4em * 1.4);
+}
+
+.card:hover .card-content {
+    margin-top: -2.3em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+}
+
+.card a {
+    text-decoration: none;
+    color: #16C79A;
+}
+
+.card .icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
+
+.card-type:before {
+    display: block;
+    position: absolute;
+    top: 0.9em;
+    right: 0.9em;
+    background: #16C79A;
+    color: #fff;
+    border-radius: 0.4em;
+    font-size: 0.9em;
+    padding: 0.2em 0.7em;
+    z-index: 120;
+    opacity: 0.7;
+    transition: .15s ease-in;
+}
+
+.card.card-type:hover:before {
+    opacity: 1;
+}
+
+.card-type-course-live:before {
+    content: "Онлайн Курс (На живо)";
+}
+
+.card-type-course-recorded:before {
+    background: purple;
+    content: "Видео Курс";
+}
+
+.card-type-course-workshop:before {
+    background: orange;
+    content: "Работилница";
+}
+
+.card img {
+    display: block;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-image {
+    border-radius: 0.4em;
+    overflow: hidden;
+    margin: -0.7em;
+    position: relative;
+    transition: .15s ease-in;
+}
+
+.card-image:before, .card-image:after {
+    display: block;
+    content: "";
+}
+
+.card-image:before {
+    padding-top: 56.25%;
+}
+
+.card-image:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #CCC;
+    box-shadow: 0 0 0.8em 0.1em rgba(0, 0, 0, 0.3) inset;
+}
+
+.card-image > img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.card-title {
+    display: block;
+    font-weight: bold;
+    font-size: 1.6em;
+    line-height: 1.1;
+    border-bottom: 2px solid #DDD;
+    padding: 0 0 0.2em 0;
+    margin-bottom: 0.2em;
+}
+
+.card-content {
+    background: #fff;
+    border-radius: 0.4em;
+    box-shadow: 0 0 0.5em 0.1em rgba(0, 0, 0, 0.1);
+    padding: 0.7em 1em;
+    margin: -1.5em 0 1em 0;
+    position: relative;
+    font-size: 1em;
+    transition: .15s ease-in;
+}
+
+.card-content p {
+    line-height: 1.35;
+}
+
+.card-item-groups-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0.3em 0.5em;
+    margin-bottom: 0.3em;
+    line-height: 1;
+}
+
+.card-item-groups-title .title {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.card-item-groups-title .see-all {
+    display: block;
+    font-size: 0.9em;
+}
+
+.card-item-groups-title .see-all:hover {
+    text-decoration: underline;
+}
+
+.card-item-groups-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 0.5em;
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+    border: 1px solid rgb(0, 0, 0, 0.05);
+    border-radius: 0.4em;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in;
+    position: relative;
+    z-index: 20;
+    background-color: #FDFDFD;
+}
+
+.card-item-groups-entry:hover {
+    opacity: 1;
+}
+
+.card-item-groups-entry .start, .card-item-groups-entry .end {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-item-groups-entry .start .label,
+.card-item-groups-entry .end .label {
+    font-size: 0.9em;
+}
+
+.card-item-groups-entry .start .value,
+.card-item-groups-entry .end .value {
+    display: flex;
+    align-items: center;
+}
+
+.card-item-groups-entry .start .value .icon,
+.card-item-groups-entry .end .value .icon {
+    opacity: 0.5;
+    margin-right: 0.2em;
+}
+
+.card-item-groups-entry .start .value .icon:not(:first-child),
+.card-item-groups-entry .end .value .icon:not(:first-child) {
+    margin-left: 0.5em;
+}
+
+.card-item-groups-entry .price {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.card-item-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: #16C79A;
+    background: #fff;
+    padding: 0.7em 2em;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 0 0.5em 0.1em rgba(0, 0, 0, 0.1) !important;
+    margin-top: 1em;
+}
+
+.card-item-price .value-price {
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.card-item-price .value-price .icon {
+    fill: #16C79A;
+    vertical-align: -0.125em;
+    display: inline-block;
+    margin-right: 0.1em;
+    transition: fill 0.2s ease-in;
+}
+
+.card-item-price:hover {
+    color: #fff;
+    background: #16C79A;
+}
+
+.card-item-price:hover .value-price .icon {
+    fill: #fff;
+}
+
+.card .author {
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding: 0.5em 0;
+    z-index: 100;
+}
+
+.card .author .label {
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+    box-shadow: 0 0 0.5em 0.1em rgba(0, 0, 0, 0.1);
+    padding: 0.3em 1.5em 0.8em 0.3em;
+    position: relative;
+    right: -1.5em;
+    z-index: 5;
+    background: #FFF;
+    border-radius: 0.3em;
+    font-size: 1em;
+    font-weight: bold;
+    transition: .15s ease-in;
+}
+
+.card .author .label img,
+.card .author .label span,
+.card .author .label svg {
+    display: block;
+}
+
+.card .author .label svg {
+    width: 1.2em;
+    margin-right: 0.2em;
+}
+
+.card .author .avatar {
+    display: block;
+    width: 5em;
+    height: 5em;
+    border: 0.3em solid #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 0.5em 0.1em rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    position: relative;
+    right: -0.8em;
+    transition: .15s ease-in;
+}
