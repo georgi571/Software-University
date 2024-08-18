@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Match Memories</title>
+    <link rel="stylesheet" href="./style/css/style.css" />
+  </head>
+
+  <body>
+    <h1>Match Memories</h1>
+    <main>
+      <div id="grass">
+      <section id="form-section">
+        <div id="form">
+          <form>
+            <div class="form-wrap">
+              <label for="host">Team Host:</label>
+              <input type="text" id="host" name="host" />
+            </div>
+            <div class="form-wrap">
+              <label for="score">Final Score:</label>
+              <input type="text" id="score" name="score" />
+            </div>
+            <div class="form-wrap">
+              <label for="guest">Team Guest:</label>
+              <input type="text" id="guest" name="guest" />
+            </div>
+          </form>
+          <div id="btn-container">
+            <button id="add-match">Add Match</button>
+            <button id="edit-match" disabled>Edit Match</button>
+          </div>
+        </div>
+      </section>
+      <button id="load-matches">Load Matches</button>
+    </div>
+
+      <div id="match-wrapper">
+        <section id="matches">
+          
+          <ul id="list">
+            <li class="match">
+              <div class="info">
+                <p>England</p>
+                <p>2-1</p>
+                <p>Slovakia</p>
+              </div>
+              <div class="btn-wrapper">
+                <button class="change-btn">Change</button>
+                <button class="delete-btn">Delete</button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(#e6e6e6, #bbbbbb);
+  background-image: url("../img/stadium.png");
+  font-family: "Anton SC", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  animation: wave 100s infinite alternate; /* Add waving animation */
+}
+
+/* Keyframes for the waving animation */
+@keyframes wave {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 10% 10%; }
+  100% { background-position: 0% 0%; }
+}
+
+
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 29px;
+}
+
+input{
+  height: 4vh;
+  background-color: rgb(134, 182, 134);
+  border-style:dashed;
+}
+
+body > h1 {
+  color: #2c5b23;
+  text-shadow: #020202 3px 3px;
+  font-family: "Anton SC", sans-serif;
+  margin: 0;
+  font-size: 64px;
+  font-weight: 300;
+ margin-top: -20px;
+}
+
+#form-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 230px;
+  border-radius: 2px;
+  box-shadow: 10px 24px 28px rgb(0, 0, 0), 20px 20px 50px rgb(0, 0, 0);
+  background-image: url(../img/form-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.form-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#form {
+  width: 860px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+#form > h1 {
+  padding: 4px;
+  margin-top: -0.3em;
+  color: #000000;
+  font-family: "Anton SC", sans-serif;
+}
+
+label {
+  margin-top: 4px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+}
+#btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+#form #add-match,
+#edit-match {
+  background-color: rgba(80, 238, 116, 0.733);
+  color: #000000;
+  font-family: "Anton SC", sans-serif;
+  padding: 5px;
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#form #edit-match:disabled {
+  background-color: #bbbbbb;
+  color: #000000;
+}
+
+#form #add-match:disabled {
+  background-color: #ff0000;
+  color: #020202;
+
+}
+
+#form #add-match:hover {
+  scale: 1.1;
+}
+
+#form #edit-match:hover{
+  scale: 1.1;
+}
+
+#form input {
+  width: 130px;
+}
+
+.match .change-btn,
+.match .delete-btn {
+  display: inline-block;
+  background-color: rgba(80, 238, 116, 0.733);
+  color: #383e46;
+  font-family: "Anton SC", sans-serif;
+  width: 80px;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+  font-weight: 200;
+  font-size: 13px;
+  margin-right: 15px;
+  letter-spacing: 1px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.change-btn:hover,
+.delete-btn:hover {
+ scale: 1.3;
+}
+
+#grass{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-left: 200px;
+}
+
+#load-matches {
+  cursor: pointer;
+  background-image: url(../img/ball.png);
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  color: green;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 23px;
+  text-shadow: 2px 2px black;
+  transition: transform 0.2s; 
+}
+
+#load-matches:hover {
+  transform: rotate(360deg);
+}
+
+
+.change-btn:disabled,
+.delete-btn:disabled {
+  background: linear-gradient(135deg, #bdbdbd 0%, #cfcfae 100%);
+}
+
+.change-btn:disabled:hover,
+.delete-btn:disabled:hover {
+  box-shadow: none;
+  color: #fcfcfc;
+}
+
+#list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+
+#matches {
+  border-radius: 20px;
+  padding: 10px;
+
+}
+
+
+.match {
+  height: 144px;
+  width: 210px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../img/form-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.info {
+  background-color: #0000008a;
+  padding: 10px;
+  width: 120px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+#match-wrapper {
+  justify-content: center;
+  display: flex;
+}
+
+p {
+  margin: 0;
+  font-size: 15px;
+  color: rgb(189, 185, 185);
+  text-shadow: rgb(0, 0, 0) 1px 1px;
+  font-weight: 700;
+ font-family: "Anton SC", sans-serif;
+}
+
+.btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  body {  
+    overflow: auto;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #form-section {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 14px 28px rgb(0, 0, 0), 10px 10px 30px rgba(0, 0, 0, 0.22);
+    background-color: rgba(143, 61, 13, 0.158);
+  }
+
+  #list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
