@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_1Lab/_01CreateTables.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_1Lab/_02InsertDataInTables.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_1Lab/_03AlterTables.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_1Lab/_04AddingConstraints.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_1Lab/_05ModifyingColumns.sql" dialect="MySQL" />
+  </component>
+</project>
