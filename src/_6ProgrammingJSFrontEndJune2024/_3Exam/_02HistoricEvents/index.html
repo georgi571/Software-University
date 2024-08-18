@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="./styles/css/styles.css"/>
+        <title>Historic Events</title>
+    </head>
+
+    <body>
+        <h1>Historic Events</h1>
+        <main>
+            <section id="add-event">
+                <h2>Add Event</h2>
+                <form>
+                    <input type="text" id="name" placeholder="Event Name">
+                    <input type="text" id="time" placeholder="Date or Time Period">
+                    <textarea id="description" placeholder="Brief Description"></textarea>
+                    <button id="add-btn">Add</button>
+                </form>
+            </section>
+            <div id="events">
+                <section class="event-section">
+                    <h2>Event Preview</h2>
+                    <ul id="preview-list"></ul>
+                </section>
+                <section class="event-section">
+                    <h2>Event</h2>
+                    <ul id="archive-list"></ul>
+                </section>
+            </div>
+        </main>
+        <script src="./app.js"></script>
+
+    </body>
+
+</html>
