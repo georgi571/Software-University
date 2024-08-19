@@ -1,0 +1,4 @@
+ALTER TABLE minions.users
+DROP PRIMARY KEY,
+ADD CONSTRAINT pk_users PRIMARY KEY (id),
+ADD CONSTRAINT uq_username UNIQUE (username);
