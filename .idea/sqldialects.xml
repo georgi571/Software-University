@@ -6,5 +6,22 @@
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_1Lab/_03AlterTables.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_1Lab/_04AddingConstraints.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_1Lab/_05ModifyingColumns.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_01CreateTables.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_02AlterMinionsTable.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_03InsertRecordsInBothTables.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_04TruncateTableMinions.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_05DropAllTables.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_06CreateTablePeople.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_07CreateTableUsers.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_08ChangePrimaryKey.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_10SetUniqueField.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_11MoviesDatabase.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_12CarRentalDatabase.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_13BasicInsert.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_14BasicSelectAllFields.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_15BasicSelectAllFieldsAndOrderThem.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_16BasicSelectSomeFields.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_17IncreaseEmployeesSalary.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_9SetDefaultValueOfAField.sql" dialect="MySQL" />
   </component>
 </project>
