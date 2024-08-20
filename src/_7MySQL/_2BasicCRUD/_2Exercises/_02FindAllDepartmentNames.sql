@@ -1,0 +1,1 @@
+SELECT name FROM soft_uni2.departments;
