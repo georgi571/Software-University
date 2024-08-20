@@ -19,6 +19,7 @@
             <name qname="minions" />
             <name qname="movies" />
             <name qname="soft_uni" />
+            <name qname="hotel" />
           </node>
         </introspection-scope>
       </schema-mapping>

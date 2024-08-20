@@ -23,5 +23,12 @@
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_16BasicSelectSomeFields.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_17IncreaseEmployeesSalary.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_1DataDefinitionAndDataTypes/_2Exercises/_9SetDefaultValueOfAField.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_1Lab/_00hotel_db.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_1Lab/_01SelectEmployeeInformation.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_1Lab/_02SelectEmployeesWithFilter.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_1Lab/_03UpdateSalaryAndSelect.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_1Lab/_04TopPaidEmployee.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_1Lab/_05SelectEmployeesByMultipleFilters.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_1Lab/_06DeleteFromTable.sql" dialect="MySQL" />
   </component>
 </project>
