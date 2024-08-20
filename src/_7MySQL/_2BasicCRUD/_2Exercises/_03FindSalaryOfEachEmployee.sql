@@ -1,0 +1,1 @@
+SELECT first_name, last_name, salary FROM soft_uni2.employees;
