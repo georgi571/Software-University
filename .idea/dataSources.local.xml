@@ -18,8 +18,11 @@
             <name qname="gamebar" />
             <name qname="minions" />
             <name qname="movies" />
-            <name qname="soft_uni" />
             <name qname="hotel" />
+            <name qname="diablo" />
+            <name qname="geography" />
+            <name qname="soft_uni2" />
+            <name qname="soft_uni" />
           </node>
         </introspection-scope>
       </schema-mapping>

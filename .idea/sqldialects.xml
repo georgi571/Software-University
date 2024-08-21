@@ -30,5 +30,32 @@
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_1Lab/_04TopPaidEmployee.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_1Lab/_05SelectEmployeesByMultipleFilters.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_1Lab/_06DeleteFromTable.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_00diablo_database.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_00geography_database.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_00soft_uni_database.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_01FindAllInformationAboutDepartments.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_02FindAllDepartmentNames.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_03FindSalaryOfEachEmployee.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_04FindFullNameOfEachEmployee.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_05FindEmailAddressOfEachEmployee.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_06FindAllDifferentEmployeesSalaries.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_07FindAllInformationAboutEmployees.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_08FindNamesOfAllEmployeesBySalaryInRange.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_09FindNamesOfAllEmployees.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_10FindAllEmployeesWithoutManager.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_11FindAllEmployeesWithSalaryMoreThan.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_12Find5BestPaidEmployees.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_13FindAllEmployeesExceptMarketing.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_14SortEmployeesTable.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_15CreateViewEmployeesWithSalaries.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_16CreateViewEmployeesWithJobTitles.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_17DistinctJobTitles.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_18FindFirst10StartedProjects.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_19Last7HiredEmployees.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_20IncreaseSalaries.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_21AllMountainPeaks.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_22BiggestCountriesByPopulation.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_23CountriesAndCurrencyEuroOrNotEuro.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_24AllDiabloCharacters.sql" dialect="MySQL" />
   </component>
 </project>
