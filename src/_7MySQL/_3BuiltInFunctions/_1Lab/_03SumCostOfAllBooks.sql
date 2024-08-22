@@ -1,0 +1,1 @@
+SELECT ROUND(SUM(cost),2) FROM book_library.books;
