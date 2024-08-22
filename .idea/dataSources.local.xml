@@ -23,6 +23,7 @@
             <name qname="geography" />
             <name qname="soft_uni2" />
             <name qname="soft_uni" />
+            <name qname="book_library" />
           </node>
         </introspection-scope>
       </schema-mapping>

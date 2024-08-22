@@ -57,5 +57,11 @@
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_22BiggestCountriesByPopulation.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_23CountriesAndCurrencyEuroOrNotEuro.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_2BasicCRUD/_2Exercises/_24AllDiabloCharacters.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_1Lab/_00booklibrary.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_1Lab/_01FindBookTitles.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_1Lab/_02ReplaceTitles.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_1Lab/_03SumCostOfAllBooks.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_1Lab/_04DaysLived.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_1Lab/_05HarryPotterBooks.sql" dialect="MySQL" />
   </component>
 </project>
