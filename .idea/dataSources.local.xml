@@ -24,6 +24,10 @@
             <name qname="soft_uni2" />
             <name qname="soft_uni" />
             <name qname="book_library" />
+            <name qname="diablo2" />
+            <name qname="geography2" />
+            <name qname="orders" />
+            <name qname="soft_uni3" />
           </node>
         </introspection-scope>
       </schema-mapping>

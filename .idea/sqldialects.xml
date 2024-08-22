@@ -63,5 +63,25 @@
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_1Lab/_03SumCostOfAllBooks.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_1Lab/_04DaysLived.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_1Lab/_05HarryPotterBooks.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_00Orders-Database.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_00diablo_database.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_00geography_database.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_00soft_uni_database.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_01FindNamesOfAllEmployeesByFirstName.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_02FindNamesOfAllEmployeesByLastName.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_03FindFirstNamesOfAllEmployess.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_04FindAllEmployeesExceptEngineers.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_05FindTownsWithNameLength.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_06FindTownsStartingWith.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_07FindTownsNotStartingWith.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_08CreateViewEmployeesHiredAfter.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_09LengthOfLastName.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_10CountriesHoldingA.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_11MixOfPeakAndRiverNames.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_12GamesFrom2011And2012Year.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_13UserEmailProviders.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_14GetUsersWithIPAddressLikePattern.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_15ShowAllGamesWithDuration.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_16OrdersTable.sql" dialect="MySQL" />
   </component>
 </project>
