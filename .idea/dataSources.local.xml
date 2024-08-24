@@ -28,6 +28,7 @@
             <name qname="geography2" />
             <name qname="orders" />
             <name qname="soft_uni3" />
+            <name qname="restaurant" />
           </node>
         </introspection-scope>
       </schema-mapping>

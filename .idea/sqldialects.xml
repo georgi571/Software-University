@@ -83,5 +83,11 @@
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_14GetUsersWithIPAddressLikePattern.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_15ShowAllGamesWithDuration.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_3BuiltInFunctions/_2Exercises/_16OrdersTable.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_4DataAggregation/_1Lab/_00restaurant.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_4DataAggregation/_1Lab/_01DepartmentsInfo.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_4DataAggregation/_1Lab/_02AverageSalary.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_4DataAggregation/_1Lab/_03MinimumSalary.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_4DataAggregation/_1Lab/_04AppetizersCount.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_4DataAggregation/_1Lab/_05MenuPrices.sql" dialect="MySQL" />
   </component>
 </project>
