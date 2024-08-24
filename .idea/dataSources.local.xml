@@ -29,6 +29,8 @@
             <name qname="orders" />
             <name qname="soft_uni3" />
             <name qname="restaurant" />
+            <name qname="gringotts" />
+            <name qname="soft_uni4" />
           </node>
         </introspection-scope>
       </schema-mapping>
