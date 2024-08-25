@@ -127,5 +127,24 @@
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_1Lab/_02TownsAndAddresses.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_1Lab/_03EmployeesWithoutManagers.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_1Lab/_04HighSalary.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_00geography_database.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_00soft_uni_database.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_01EmployeeAddress.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_02AddressesWithTowns.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_03SalesEmployee.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_04EmployeeDepartments.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_05EmployeesWithoutProject.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_06EmployeesHiredAfter.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_07EmployeesWithProject.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_08Employee24.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_09EmployeeManager.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_10EmployeeSummary.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_11MinAverageSalary.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_12HighestPeaksInBulgaria.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_13CountMountainRanges.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_14CountriesWithRivers.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_15ContinentsAndCurrencies.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_16CountriesWithoutAnyMountains.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_17HighestPeakAndLongestRiverByCountry.sql" dialect="MySQL" />
   </component>
 </project>

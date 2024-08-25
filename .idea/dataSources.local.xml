@@ -36,6 +36,8 @@
             <name qname="online_store" />
             <name qname="university" />
             <name qname="soft_uni5" />
+            <name qname="geography4" />
+            <name qname="soft_uni6" />
           </node>
         </introspection-scope>
       </schema-mapping>
