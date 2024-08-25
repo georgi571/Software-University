@@ -35,6 +35,7 @@
             <name qname="soft_uni4" />
             <name qname="online_store" />
             <name qname="university" />
+            <name qname="soft_uni5" />
           </node>
         </introspection-scope>
       </schema-mapping>
