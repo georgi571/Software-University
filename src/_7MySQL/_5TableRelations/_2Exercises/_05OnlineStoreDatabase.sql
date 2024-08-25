@@ -1,11 +1,11 @@
-CREATE DATABASE online_store_database;
+CREATE DATABASE online_store;
 
-CREATE TABLE online_store_database.cities(
+CREATE TABLE online_store.cities(
     city_id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(50)
 );
 
-CREATE TABLE online_store_database.customers(
+CREATE TABLE online_store.customers(
     customer_id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(50),
     birthday DATE,
@@ -16,7 +16,7 @@ CREATE TABLE online_store_database.customers(
             REFERENCES cities(city_id)
 );
 
-CREATE TABLE online_store_database.orders (
+CREATE TABLE online_store.orders (
     order_id INT PRIMARY KEY AUTO_INCREMENT,
     customer_id INT,
 
@@ -25,12 +25,12 @@ CREATE TABLE online_store_database.orders (
             REFERENCES customers(customer_id)
 );
 
-CREATE TABLE online_store_database.item_types (
+CREATE TABLE online_store.item_types (
     item_type_id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(50)
 );
 
-CREATE TABLE online_store_database.items (
+CREATE TABLE online_store.items (
     item_id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(50),
     item_type_id INT,
@@ -40,7 +40,7 @@ CREATE TABLE online_store_database.items (
             REFERENCES item_types(item_type_id)
 );
 
-CREATE TABLE online_store_database.order_items(
+CREATE TABLE online_store.order_items(
     order_id INT,
     item_id INT,
 
