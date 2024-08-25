@@ -31,6 +31,7 @@
             <name qname="restaurant" />
             <name qname="gringotts" />
             <name qname="soft_uni4" />
+            <name qname="camp" />
           </node>
         </introspection-scope>
       </schema-mapping>

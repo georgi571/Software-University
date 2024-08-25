@@ -109,5 +109,10 @@
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_4DataAggregation/_2Exercises/_16ThirdHighestSalary.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_4DataAggregation/_2Exercises/_17SalaryChallenge.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_4DataAggregation/_2Exercises/_18DepartmentsTotalSalaries.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_5TableRelations/_1Lab/_00camp_db.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_5TableRelations/_1Lab/_01MountainsAndPeaks.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_5TableRelations/_1Lab/_02TripOrganization.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_5TableRelations/_1Lab/_03SoftUniHiking.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_5TableRelations/_1Lab/_04DeleteMountains.sql" dialect="MySQL" />
   </component>
 </project>
