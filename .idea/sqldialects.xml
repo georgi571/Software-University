@@ -114,5 +114,13 @@
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_5TableRelations/_1Lab/_02TripOrganization.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_5TableRelations/_1Lab/_03SoftUniHiking.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_5TableRelations/_1Lab/_04DeleteMountains.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_5TableRelations/_2Exercises/_00geography_database.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_5TableRelations/_2Exercises/_01OneToOneRelationship.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_5TableRelations/_2Exercises/_02OneToManyRelationship.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_5TableRelations/_2Exercises/_03ManyToManyRelationship.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_5TableRelations/_2Exercises/_04SelfReferencing.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_5TableRelations/_2Exercises/_05OnlineStoreDatabase.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_5TableRelations/_2Exercises/_06UniversityDatabase.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_5TableRelations/_2Exercises/_09PeaksInRila.sql" dialect="MySQL" />
   </component>
 </project>

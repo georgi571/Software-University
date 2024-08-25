@@ -13,25 +13,28 @@
       <schema-mapping>
         <introspection-scope>
           <node kind="schema">
-            <name qname="car_rental" />
             <name qname="@" />
+            <name qname="book_library" />
+            <name qname="camp" />
+            <name qname="car_rental" />
+            <name qname="diablo" />
+            <name qname="diablo2" />
             <name qname="gamebar" />
+            <name qname="geography" />
+            <name qname="geography2" />
+            <name qname="geography3" />
+            <name qname="gringotts" />
+            <name qname="hotel" />
             <name qname="minions" />
             <name qname="movies" />
-            <name qname="hotel" />
-            <name qname="diablo" />
-            <name qname="geography" />
-            <name qname="soft_uni2" />
-            <name qname="soft_uni" />
-            <name qname="book_library" />
-            <name qname="diablo2" />
-            <name qname="geography2" />
             <name qname="orders" />
-            <name qname="soft_uni3" />
             <name qname="restaurant" />
-            <name qname="gringotts" />
+            <name qname="soft_uni" />
+            <name qname="soft_uni2" />
+            <name qname="soft_uni3" />
             <name qname="soft_uni4" />
-            <name qname="camp" />
+            <name qname="online_store" />
+            <name qname="university" />
           </node>
         </introspection-scope>
       </schema-mapping>
