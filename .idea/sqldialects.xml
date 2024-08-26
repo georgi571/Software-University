@@ -151,5 +151,23 @@
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_1Lab/_02EmployeesPromotion.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_1Lab/_03EmployeesPromotionByID.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_1Lab/_04Triggered.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_00bank_db.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_00soft_uni_database.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_01EmployeesWithSalaryAbove35000.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_02EmployeesWithSalaryAboveNumber.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_03TownNamesStartingWith.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_04EmployeesFromTown.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_05SalaryLevelFunction.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_06EmployeesBySalaryLevel.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_07DefineFunction.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_08FindFullName.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_09PeopleWithBalanceHigherThan.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_10FutureValueFunction.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_11CalculatingInterest.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_12DepositMoney.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_13WithdrawMoney.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_14MoneyTransfer.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_15LogAccountsTrigger.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_2Exercises/_16EmailsTrigger.sql" dialect="MySQL" />
   </component>
 </project>

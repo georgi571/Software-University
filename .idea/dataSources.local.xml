@@ -39,6 +39,8 @@
             <name qname="geography4" />
             <name qname="soft_uni6" />
             <name qname="soft_uni7" />
+            <name qname="soft_uni8" />
+            <name qname="bank" />
           </node>
         </introspection-scope>
       </schema-mapping>
