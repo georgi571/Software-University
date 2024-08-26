@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE FUNCTION bank.ufn_calculate_future_value(`sum` DECIMAL(19, 4),`yearly_interest_rate` DOUBLE(6,2),`number_of_years` INT)
+CREATE FUNCTION bank.ufn_calculate_future_value(`sum` DECIMAL(19, 4),`yearly_interest_rate` DECIMAL(19, 4),`number_of_years` INT)
     RETURNS DECIMAL(19, 4)
     DETERMINISTIC
 BEGIN
