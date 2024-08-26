@@ -6,6 +6,7 @@ BEGIN
         ROLLBACK;
     ELSE
         UPDATE accounts SET balance = balance + money_amount WHERE id = account_id;
+        COMMIT;
     END IF;
 END$$
 DELIMITER ;
