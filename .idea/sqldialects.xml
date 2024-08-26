@@ -146,5 +146,10 @@
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_15ContinentsAndCurrencies.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_16CountriesWithoutAnyMountains.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/_7MySQL/_6SubqueriesAndJOINs/_2Exercises/_17HighestPeakAndLongestRiverByCountry.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_1Lab/_00soft_uni_database.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_1Lab/_01CountEmployeesByTown.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_1Lab/_02EmployeesPromotion.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_1Lab/_03EmployeesPromotionByID.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_7MySQL/_7DatabaseProgrammability/_1Lab/_04Triggered.sql" dialect="MySQL" />
   </component>
 </project>
