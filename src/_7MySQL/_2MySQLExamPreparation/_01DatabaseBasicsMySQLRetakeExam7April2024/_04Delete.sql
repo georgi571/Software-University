@@ -1,0 +1,2 @@
+DELETE FROM go_roadie.driving_schools
+WHERE night_time_driving IS FALSE
