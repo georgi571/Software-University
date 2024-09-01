@@ -55,9 +55,9 @@ CREATE TABLE fsd.players(
     age INT NOT NULL DEFAULT 0,
     position CHAR(1) NOT NULL,
     salary DECIMAL(10,2) NOT NULL DEFAULT 0,
-    hire_date DATETIME NOT NULL,
+    hire_date DATETIME,
     skills_data_id INT NOT NULL,
-    team_id INT NOT NULL,
+    team_id INT,
 
     CONSTRAINT fk_players_skills_data
         FOREIGN KEY (skills_data_id)
