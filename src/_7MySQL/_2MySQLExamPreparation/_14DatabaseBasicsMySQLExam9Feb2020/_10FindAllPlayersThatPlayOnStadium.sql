@@ -7,8 +7,8 @@ BEGIN
 
     SELECT COUNT(p.id) INTO number_of_photos_that_user_has_upload
     FROM fsd.stadiums AS s
-             LEFT JOIN fsd.teams t on s.id = t.stadium_id
-             LEFT JOIN fsd.players p on t.id = p.team_id
+             LEFT JOIN fsd.teams AS t ON s.id = t.stadium_id
+             LEFT JOIN fsd.players AS p ON t.id = p.team_id
     WHERE s.name = `stadium_name`;
 
     RETURN number_of_photos_that_user_has_upload;
