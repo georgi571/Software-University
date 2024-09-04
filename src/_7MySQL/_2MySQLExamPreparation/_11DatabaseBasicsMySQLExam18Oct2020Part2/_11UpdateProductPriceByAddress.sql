@@ -19,11 +19,3 @@ BEGIN
     WHERE a.name = `address_name`;
 END$$
 DELIMITER ;
-
-SELECT
-    p.price
-FROM softuni_stores_system.addresses AS a
-    JOIN softuni_stores_system.stores AS s ON a.id = s.address_id
-    JOIN softuni_stores_system.products_stores AS ps ON s.id = ps.store_id
-    JOIN softuni_stores_system.products p on p.id = ps.product_id
-WHERE a.name = '07 Armistice Parkway';
