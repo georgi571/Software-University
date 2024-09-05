@@ -5,6 +5,7 @@
       <database-info product="MySQL" version="8.0.39" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MYSQL" exact-version="8.0.39" exact-driver-version="8.2">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
+        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
@@ -40,6 +41,21 @@
             <name qname="soft_uni7" />
             <name qname="soft_uni8" />
             <name qname="bank" />
+            <name qname="preserves" />
+            <name qname="real_estate" />
+            <name qname="airlines" />
+            <name qname="universities" />
+            <name qname="restaurant2" />
+            <name qname="softuni_imdbs" />
+            <name qname="online_store2" />
+            <name qname="softuni_game_dev_branch" />
+            <name qname="softuni_taxi_company" />
+            <name qname="softuni_stores_system" />
+            <name qname="instd" />
+            <name qname="ruk" />
+            <name qname="colonial_journey_management_system" />
+            <name qname="go_roadie" />
+            <name qname="fsd" />
           </node>
         </introspection-scope>
       </schema-mapping>
