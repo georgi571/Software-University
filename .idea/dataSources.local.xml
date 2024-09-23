@@ -5,57 +5,14 @@
       <database-info product="MySQL" version="8.0.39" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MYSQL" exact-version="8.0.39" exact-driver-version="8.2">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
+        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema">
-            <name qname="@" />
-            <name qname="book_library" />
-            <name qname="camp" />
-            <name qname="car_rental" />
-            <name qname="diablo" />
-            <name qname="diablo2" />
-            <name qname="gamebar" />
-            <name qname="geography" />
-            <name qname="geography2" />
-            <name qname="geography3" />
-            <name qname="gringotts" />
-            <name qname="hotel" />
-            <name qname="minions" />
-            <name qname="movies" />
-            <name qname="orders" />
-            <name qname="restaurant" />
-            <name qname="soft_uni" />
-            <name qname="soft_uni2" />
-            <name qname="soft_uni3" />
-            <name qname="soft_uni4" />
-            <name qname="online_store" />
-            <name qname="university" />
-            <name qname="soft_uni5" />
-            <name qname="geography4" />
-            <name qname="soft_uni6" />
-            <name qname="soft_uni7" />
-            <name qname="soft_uni8" />
-            <name qname="bank" />
-            <name qname="preserves" />
-            <name qname="real_estate" />
-            <name qname="airlines" />
-            <name qname="universities" />
-            <name qname="restaurant2" />
-            <name qname="softuni_imdbs" />
-            <name qname="online_store2" />
-            <name qname="softuni_game_dev_branch" />
-            <name qname="softuni_taxi_company" />
-            <name qname="softuni_stores_system" />
-            <name qname="instd" />
-            <name qname="ruk" />
-            <name qname="colonial_journey_management_system" />
-            <name qname="go_roadie" />
-            <name qname="fsd" />
-          </node>
+          <node kind="schema" qname="@" />
         </introspection-scope>
       </schema-mapping>
     </data-source>
