@@ -7,6 +7,3 @@ function trainingLab(w, h) {
     let numbersOfChairs = (deskInRow * rows) - 3;
     console.log(`${numbersOfChairs}`)
 }
-
-trainingLab(15, 8.9)
-trainingLab(8.4, 5.2)
